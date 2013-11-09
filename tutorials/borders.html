@@ -47,15 +47,15 @@ background-size: percent/em/px size;
 background-repeat: (no-repeat/repeat/repeat-x/repeat-y/inherit);
 </pre>
 
-<p>Depending on the specified value, the background will repeat in both horizontally and vertically, just on the horizontal, just on the vertical, or not at all. 
-	Now this is nice, but what if you have two images that you want to overlap, and can’t get to an editor and manually overlap them? In this case, you can just us the background property as follows:</p>
+<p>Depending on the specified value, the background will repeat both horizontally and vertically, just on the horizontal, just on the vertical, or not at all. 
+	Now this is nice, but what if you have two images that you want to overlap, and can’t get to an editor and manually overlap them? In this case, you can just use the background property as follows:</p>
 
 <pre class = "prettyprint">background: url(image), url(image);</pre>
 
 <p>This can be done for multiple images, and the images will be overlapped as if they were a normal background image. </p>
 
 <h3>Border:</h3>
-	<p>Now that we have our background all nice and fancy, it’s time to add some depth to our webpage, and we can do this through the use of borders. WARNING: Some of the following attributes may not be available in certain browsers. Check the property to see browser supports.</p>
+	<p>Now that we have our background all nice and fancy, it’s time to add some depth to our webpage, and we can do this through the use of borders. WARNING: Some of the following attributes may not be available in certain browsers. Check the property in our <a href="dictionary.html">dictionary</a> to see browser supports.</p>
 	<p>Borders are not very difficult to implement, but should be used sparingly and should not take up a majority of the design of the page. To declare a basic border around an object it is simply: </p>
 
 <pre class = "prettyprint">border: width type color;</pre>
@@ -70,7 +70,7 @@ look like:</p>
 
 <pre class = "prettyprint">box-shadow: 2px 2px black;</pre></p>
 
-	<p>Finally, if we can look at setting an image to a border. If you don’t like how CSS does their borders, then you can create your own, and add it in instead. This can be done using a little complex CSS 3:
+	<p>Finally, we can look at setting an image to a border. If you don’t like how CSS does their borders, then you can create your own, and add it in instead. This can be done using a little complex CSS 3:
 
 <pre class = "prettyprint">border-image:url(image) length height type;</pre>
 
