@@ -14,6 +14,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 
 p{
     margin: 1em;
+    padding-right: 2.5em;
 }
 
 /*
@@ -162,6 +163,10 @@ p{
     margin-bottom: 200px;
 }
 
+.team-member{
+    margin-bottom: 5em;
+}
+
 .textarea_div, .iframe{
 	float: left;	
 	width: 45%;
@@ -175,6 +180,7 @@ p{
 
 .tutorial{
     margin: 1em;
+    padding-bottom: .5em;
 }
 
 
