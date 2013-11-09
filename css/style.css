@@ -17,6 +17,9 @@ p{
     padding-right: 2.5em;
 }
 
+pre{
+   width: 85%; 
+}
 /*
 #collapse_div{
 	height: 50px;
