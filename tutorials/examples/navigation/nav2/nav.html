@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>Navigation Bar Example</title>
+	<style>
+		ul{
+			list-style: none;
+			display: block;
+		}
+		
+		ul a{
+			text-decoration: none;
+			color: black;
+		}
+		
+		li{
+			border:1px solid black;
+			margin: 2px;
+			padding: 2px;
+			font-family: sans-serif;
+			width: 150px;
+		}
+	
+		li ul li{
+			width: 100px;
+		}
+		
+		ul#nav li ul{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<ul id = "nav">
+		<li class = "active"><a href ="">Home</a></li>
+		<li><a href ="">Map</a></li>
+		<li><a href ="">History</a></li>
+		<li><a href ="">Attractions</a>
+			<ul>
+				<li><a href ="">Historical</a></li>
+				<li><a href ="">Restaurants</a></li>
+				<li><a href ="">Activities</a></li>
+			</ul>
+		</li>
+		<li><a href ="">Education</a>
+			<ul>
+				<li><a href ="">Private</a></li>
+				<li><a href ="">Public</a></li>
+			</ul>
+		</li>
+	</ul>
+	
+	
+</body>
+</html>
