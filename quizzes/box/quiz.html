@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset='utf-8' />
+    <title>Box Properties Quiz</title>
+    <link type="text/css" rel="stylesheet" href="../../assets/prettify.css" />
+    <link type="text/css" rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+		
+    <style>
+	#error_message{
+		width: 60%;
+		border: 10px groove red;
+		display: none;
+	}
+  </style>
+    
+    <script src="radioButtonValidation.js"></script>
+  
+    <script>
+		function validate()
+		{
+			document.getElementById("error_message").innerHTML = "";
+			var errorMsg = "";
+			
+			//copy the line and change the parameters for each question for each question
+			errorMsg += radioButtonValidation("q1", 2, "A") + "<br/>";
+			errorMsg += radioButtonValidation("q2", 2, "B") + "<br/>";;
+			errorMsg += radioButtonValidation("q3", 2, "B") + "<br/>";
+			errorMsg += radioButtonValidation("q4", 4, "D") + "<br/>";;
+			errorMsg += radioButtonValidation("q5", 2, "B") + "<br/>";
+			//errorMsg += radioButtonValidation("q5", 3, "A") + "<br/>";;
+			
+			
+			
+			if(errorMsg.length > (5*5))
+			{
+				document.getElementById("error_message").innerHTML = "You got wrong answers: <br/>" + errorMsg;	
+				document.getElementById("error_message").style.display = "block";	
+			}
+			else{
+				
+				document.getElementById("error_message").innerHTML = "Your answers are perfect! <br/>" + errorMsg;
+			}
+		}
+  </script>
+    
+</head>
+<body>
+    <div class="navbar">
+		    <div class="navbar-inner">
+		      <a class="brand" href="#">6G1W</a>
+		      <ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="dictionary.html">Dictionary</a></li>
+			<li><a href="tutorials.html">Tutorials</a></li>
+			<li class="active"><a href="quizzes.html">Quizzes</a></li>
+			<li><a href="about.html">About</a></li>
+		      </ul>
+		    </div>
+		</div>
+    
+    <form name ="quiz2" id="quiz2"
+      method="post" action="quiz2.html">
+    <h3><a href="../../quizzes.html">< back</a></h3>    
+    <h1>Box Properties Quiz</h1>
+    
+    <span>Q1) What property specifies whether or not to clip the left/right edges of the element's content?:</span>
+    <p>
+    <input type="radio" name="q1" value="correct" id="q1a1"/> 
+      <label for ="q1a1"> a)overflow-x; </label>
+    </p>
+    <p>
+    <input type="radio" name="q1" value="incorrect" id="q1a2"/> 
+      <label for ="q1a2"> b)overflow-y; </label>
+    </p>
+    
+    <span>Q2) What property specifies whether or not to clip the top/bottom edges of the element's content?:</span>
+    <p>
+    <input type="radio" name="q2" value="incorrect" id="q2a1"/> 
+      <label for ="q2a1"> a)overflow-x; </label>
+    </p>
+    <p>
+    <input type="radio" name="q2" value="correct" id="q2a2"/> 
+      <label for ="q2a2"> b)overflow-y; </label>
+    </p>
+    
+    <span>Q3)Rotation-point rotates an element around a given point</span>
+    <p>
+    <input type="radio" name="q3" value="incorrect" id="q3a1"/> 
+      <label for ="q1a1"> a)true </label>
+    </p>
+    <p>
+    <input type="radio" name="q3" value="correct" id="q3a2"/> 
+      <label for ="q3a2"> b)false </label>
+    </p>
+    
+    <span>Q4)What is the name of the property that sets the preferred scrolling method?</span>
+    <p>
+    <input type="radio" name="q4" value="incorrect" id="q4a1"/> 
+      <label for ="q4a1"> a)overflow-scroll; </label>
+    </p>
+    <p>
+    <input type="radio" name="q4" value="incorrect" id="q4a2"/> 
+      <label for ="q4a2"> b)overflow-method; </label>
+    </p>
+    <p>
+    <input type="radio" name="q4" value="incorrect" id="q4a3"/> 
+      <label for ="q4a3"> c)overflow; </label>
+    </p>
+    <p>
+    <input type="radio" name="q4" value="correct" id="q4a4"/> 
+      <label for ="q4a4"> d)overflow-style; </label>
+    </p>
+    
+    <span>Q5)Rotation-direction is a CSS property</span>
+    <p>
+    <input type="radio" name="q5" value="incorrect" id="q5a1"/> 
+      <label for ="q5a1"> a)true</label>
+    </p>
+    <p>
+    <input type="radio" name="q5" value="correct" id="q5a2"/> 
+      <label for ="q5a2"> b)false</label>
+    </p>
+    
+    <button type="button" onclick="validate();">Grade My Exam</button>
+  </form>
+    <div id="error_message"></div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+		<script>
+		    !function ($) {
+		      $(function(){
+			window.prettyPrint && prettyPrint()   
+		      })
+		    }(window.jQuery)
+		</script>
+</body>
+</html>
