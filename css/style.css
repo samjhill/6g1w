@@ -23,9 +23,11 @@ p{
     margin: 1em;
     padding-right: 2.5em;
 }
-
 pre{
    width: 85%; 
+}
+label{
+    margin: 1em;
 }
 /*
 #collapse_div{
@@ -41,7 +43,7 @@ pre{
 #content{
     width: 100%;
     padding: 1.5em;
-    margin: 0px auto;
+    margin: 1em;
 }
 #content h1{
     font-size: 24pt;
@@ -120,12 +122,12 @@ pre{
 
 /* rewrite over nav bar styles */ 
 .navbar{
-    font-family: Ubuntu;
     margin-top: -2px;
     margin-left: -2px;
     width: 110%;
 }
 .navbar .nav > li > a{
+    font-size: 16pt;
     color: white;
 }
 
@@ -134,6 +136,7 @@ pre{
 }
 
 .navbar .brand{
+    font-size: 18pt;
     color: white;
 }
 
@@ -146,7 +149,6 @@ pre{
     background-color: #83C6FA;
 }
 /* end nav bar styles */
-
 
 .panel-body{
     width: 70%;
@@ -172,6 +174,10 @@ pre{
 
 .panel panel-default{
     margin-bottom: 200px;
+}
+
+.question{
+    margin-bottom: 3em;
 }
 
 .team-member{
