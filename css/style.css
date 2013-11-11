@@ -126,7 +126,13 @@ label{
     margin-left: -2px;
     width: 110%;
 }
+
+.navbar i{
+    color: white;
+}
+
 .navbar .nav > li > a{
+    text-shadow: none;
     font-size: 16pt;
     color: white;
 }
@@ -185,14 +191,14 @@ label{
 }
 
 .textarea_div, .iframe{
-	float: left;	
-	width: 45%;
-	height: 280px;
-	margin-left: 20px;
+    float: left;	
+    width: 45%;
+    height: 280px;
+    margin-left: 20px;
 }
 .txtarea{
-	width: 95%;
-	height: 280px;
+    width: 95%;
+    height: 280px;
 }
 
 .tutorial{
