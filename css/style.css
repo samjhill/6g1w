@@ -58,6 +58,12 @@ label{
 #homeNav{
     display: inline;
 }
+#homeNav ul{
+    list-style: none;
+}
+#homenav ul > li{
+    padding-bottom: 2em;
+}
 
 #icon{
 	position: relative;
