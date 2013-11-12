@@ -7,7 +7,13 @@ h1,h2,h3,h4{
     font-family: Ubuntu;
     margin: 0px;
 }
+a{
+    color: #8A0917;
+}
 
+a:hover{
+    color: #595241;
+}
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
     margin: 0;
     color: #686666;
@@ -153,12 +159,12 @@ label{
 }
 
 .navbar-inner{
-   background-image: linear-gradient(to bottom, #70D6F7, #83C6FA); 
+   background-image: linear-gradient(to bottom, #8A0917, #8A0917); 
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
     color: white;
-    background-color: #83C6FA;
+    background-color: #595241;
 }
 /* end nav bar styles */
 
