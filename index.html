@@ -30,7 +30,37 @@
             
 			<div id="homeNav">
 			    <ul>
-				<li><a href="" class="homeNavItem"><i class="fa fa-heart-o"></i> Popular</a></li>
+				<!-- start collape line-height -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a class="accordion-toggle homeNavItem" data-toggle="collapse" data-parent="#accordion" href="#collapsePopular">
+						  <i class="fa fa-heart-o"></i> Popular</a>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseLineHeight" class="panel-collapse collapse">
+					  <div class="panel-body">
+						    <h3>Description</h3><p> Space out the height of the text line.</p>
+						    <h3>Browser support</h3>
+						    <img alt="IE" src="images/ie10.png" />
+						    <img alt="Firefox" src="images/firefox.png" />
+						    <img alt="Opera" src="images/opera.png" />
+						    <img alt="Chrome" src="images/chrome.png" />
+						    <img alt="Safari" src="images/safari.png" />
+						    
+						    <h3>Definition/Use</h3><p> Set the height of a line of text</p>
+						    <h3>Syntax</h3><p>line-height: 40%;</p>
+						    <h3>Similar CSS</h3><p></p>
+						    <a href="http://jsfiddle.net/SQ6dA/36/" target="_blank" class="btn btn-primary">Example</a>
+						    
+						    <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapseLineHeight">
+							Close
+						    </a>
+					  </div>
+				
+					</div>
+				</div>
 				<li><a href="" class="homeNavItem"><i class="fa fa-plus-square"></i> New</a></li>
 				<li><a href="dictionary.html" class="homeNavItem"><i class="fa fa-bars"></i> All</a></li>
 			    </ul>
