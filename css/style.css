@@ -43,9 +43,9 @@ label{
 #backToTop{
     margin-right: 3em;
     position: fixed;
-    width:50px;
-    top:10%;
-    left:10%;
+    width: 120px;
+    top: 96%;
+    left: 83%;
 }
 
 #collapseOne{
