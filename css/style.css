@@ -115,7 +115,8 @@ label{
 }
 
 #side_navigation{
-    position:fixed; 
+    position:fixed;
+    display:block; 
     background-color: white;
 	float: right;
 	width: 15%;
