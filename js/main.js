@@ -1,14 +1,16 @@
 function getGallery(search){
     console.log('getGallery called');
     
-    $.ajax({
-        url: 'php/proxy.php',
-        dataType: "xml",
-        success: function (data) {
-          console.log(data)
-          alert(data);
-        }
-      });
+     $.ajax({
+		type: "GET",
+		url: "php/proxy.php",
+		dataType: "xml",
+		success: parseXml
+	     });
     
     console.log('ajax request complete');
+}
+
+function parseXml(xml){
+    console.log(xml);
 }
