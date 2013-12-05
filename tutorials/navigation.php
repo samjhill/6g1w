@@ -28,7 +28,7 @@
 		</div>
 		
 		<div id="content">
-		<h3><a href="../tutorials.html">< back</a></h3>
+		<h3><a href="../tutorials.php">< back</a></h3>
 		<h1>Where to Go - Navigation Bar</h1>
 
 	<p>Creating global navigation with an indicator of where a user is on the website is one of the more important aspects to creating a website. It makes the user’s navigation throughout the site much more simple, and if they are able to find what they want very quickly, they will almost always return to find it again. So where do we begin? Well first, there are a few unsung rules of global navigation that need to be discussed before we can begin implementation. First, we never want the global navigation to be more than 7 items long, however this is dependant on the information that is being used. If you feel like the navigation is too cluttered, try condensing two or more menus into one submenu. Second, we should always know where within the site we are, and we can do this through manipulation of the global navigation. As long as there is something different about the menu item for the current page, the user will easily be able to find their way around the site.</p>
@@ -128,7 +128,9 @@ ul#nav li:hover ul{
 <p>By adding the "active" class to the page on with the &lt;li&gt; tag currently being accessed, it adds a simple "breadcrumb" that allows the user to know that, in this case, they are currently on the homepage.</p>
 	<p>Making a basic vertical menu in CSS is as easy as that. Vertical menus are useful for almost all sites, as well as horizontal navigation bars. However, we will not spill the secrets to a horizontal navigation bar; we’ll let you try and discover how to do that on your own. </p>
 
-        <h3><a href="../tutorials.html">< back to Tutorials</a></h3>
+        <h3><a href="../tutorials.php">< back to Tutorials</a></h3>
+	
+	
 	</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="../assets/bootstrap/js/bootstrap.min.js"></script>

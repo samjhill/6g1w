@@ -28,7 +28,7 @@
 		</div>
 		
 		<div id="content">
-		<h3><a href="../tutorials.html">< back</a></h3>
+		<h3><a href="../tutorials.php">< back</a></h3>
 		<h1>Basic CSS Walkthrough - CSS Tutorial</h1>
 			
 
@@ -92,7 +92,9 @@ body{}
 				<p>The first option is to do it like above, where each property is listed in alphabetical order. This is useful because it diminishes the time needed to find each property.</p>
 				<p>The second option is to group each property by what they do. For instance, keep anything that modifies the text together, while everything changing the border is grouped together separated by a single space. This is very useful as it makes it easier to change a portion of the design as a whole. For example, if you want to change only the text, it is easier to find all the text properties within a tag as they are together, rather than having awkward spacing in between the different properties.</p>
 
-        <h3><a href="../tutorials.html">< back to Tutorials</a></h3>
+        <h3><a href="../tutorials.php">< back to Tutorials</a></h3>
+	
+	
 	
 	
 	</div>
