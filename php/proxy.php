@@ -32,6 +32,7 @@ $valid_requests = array(
         'http://www.cssmania.com/api/api.php?search=' . $_GET['search'];
 );
 
+
 /* * * STOP EDITING HERE UNLESS YOU KNOW WHAT YOU ARE DOING * * */
 
 // identify request headers
@@ -118,7 +119,7 @@ foreach ( $response_headers as $key => $response_header ) {
 }
 
 // finally, output the content
-printf($response_content);
+//printf($response_content);
 print($response_content );
 
 function csajax_debug_message( $message )
