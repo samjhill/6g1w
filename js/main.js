@@ -1,7 +1,7 @@
-function getGallery(){
+function getGallery(search){
     console.log('getGallery called');
     $.ajax({
-        url: "http://www.cssmania.com/api/api.php?search=authentic",
+        url: "php/proxy.php?search=" + search,
         success: function (result) {
             $("#gallery").append(result);
         }
