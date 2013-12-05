@@ -28,7 +28,14 @@
         </div>
 		<script src="js/main.js"></script>
 		<script>
-		    
+		    $.ajax({
+		    type: "GET",
+		    url: "php/proxy.php?search=" + search,
+		    dataType: "json",
+		    success: parseJson
+		 });
+		
+		
 		</script>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
     </body>
