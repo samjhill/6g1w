@@ -12,16 +12,17 @@ function getGallery(search){
 }
 
 function parseXml(xml){
-    //console.log('parseXml called');
-    //console.log(xml);
     
     $(xml).find("item").each(function() {
+            
             console.log(this);
             var title = $(this).find("title").text();
-            console.log(title);
 	    var link =  $(this).find("link").text();
-            console.log(link);
+            
+            
             $('#gallery').append('<h3>' + title + '</h3>');
-	    $('#gallery').append('<a href="' + link + '">' + link + '</a>');
+            $('#gallery').append('<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=' + link +'"></script>');
+	    $('#gallery').append('<a href="' + link + '">' + link + '</a></div>');
     });
+    
 }

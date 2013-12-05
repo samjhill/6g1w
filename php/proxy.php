@@ -3,7 +3,7 @@
 header('Content-type: application/xml');
 
 // Website url to open
-$daurl = 'http://www.cssheaven.com/feed/';
+$daurl = 'http://www.cssheaven.com/category/css-designs/feed/';
 
 // Get that website's content
 $handle = fopen($daurl, "r");
