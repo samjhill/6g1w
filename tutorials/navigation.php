@@ -1,3 +1,9 @@
+<?php
+
+  $currentPage="Tutorials";
+
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
     <head>
@@ -14,18 +20,8 @@
 		</script>
 	</head>
     <body>	
-		<div class="navbar">
-		    <div class="navbar-inner">
-		      <a class="brand" href="#">6G1W</a>
-		      <ul class="nav">
-			<li><a href="../index.php"><i class="fa fa-home fa-fw"></i> Home</a></li>
-			<li><a href="../dictionary.php"><i class="fa fa-book fa-fw"></i> Dictionary</a></li>
-			<li class="active"><a href="../tutorialsphp"><i class="fa fa-pencil-square fa-fw"></i> Tutorials</a></li>
-			<li><a href="../quizzes.php"><i class="fa fa-question fa-fw"></i> Quizzes</a></li>
-			<li><a href="../about.php"><i class="fa fa-group fa-fw"></i> About</a></li>
-		      </ul>
-		    </div>
-		</div>
+		<!--php navigation include-->
+		<?php include("../navigation_level2.php"); ?>
 		
 		<div id="content">
 		<h3><a href="../tutorials.php">< back</a></h3>
