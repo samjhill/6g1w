@@ -201,6 +201,11 @@ label{
     margin-bottom: 200px;
 }
 
+.popularItem
+{
+    width: 100px;
+}
+
 .question{
     margin-bottom: 3em;
 }
