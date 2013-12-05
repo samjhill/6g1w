@@ -12,7 +12,7 @@ $handle = fopen($daurl, "r");
 // If there is something, read and return
 if ($handle) {
     while (!feof($handle)) {
-        $buffer = fgets($handle, 4096);
+        $buffer = fgets($handle, 8192);
         echo $buffer;
     }
     fclose($handle);
