@@ -12,5 +12,6 @@ function getGallery(search){
 }
 
 function parseXml(xml){
+    console.log('parseXml called');
     console.log(xml);
 }
