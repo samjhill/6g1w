@@ -20,6 +20,7 @@ function parseXml(xml){
 	    var link =  $(this).find("link").text();
             $('#gallery').append('<div class="">')
             $('#gallery').append('<h3>' + title + '</h3>');
+            $('#gallery').append('<img src="http://api.snapito.com/free/' + link + '></img>');
 	    $('#gallery').append('<a href="' + link + '">' + link + '</a></div>');
     });
     
