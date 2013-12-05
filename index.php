@@ -1,3 +1,9 @@
+<?php
+
+  $currentPage="Home";
+
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
     <head>
@@ -10,6 +16,9 @@
 	</head>
 
     <body>		
+		<?php include("navigation.php"); ?>
+		
+		<!--
 		<div class="navbar">
 		    <div class="navbar-inner">
 		      <a class="brand" href="#">6G1W</a>
@@ -21,11 +30,11 @@
 			<li><a href="about.html"><i class="fa fa-group fa-fw"></i> About</a></li>
 		      </ul>
 		    </div>
-		</div>
+		</div> -->
 		
         <div id="content">
 			
-		
+			
 			<h1>Start your navigation here</h1>
             
 			<div id="homeNav">

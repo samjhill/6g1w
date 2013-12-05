@@ -1,3 +1,8 @@
+<?php
+
+  $currentPage="Quizzes";
+
+?>
 <!DOCTYPE html>
 <html lang='en'>
     <head>
@@ -14,6 +19,9 @@
 		</script>
 	</head>
     <body>	
+		
+		<?php include("navigation.php"); ?>
+		<!--
 		<div class="navbar">
 		    <div class="navbar-inner">
 		      <a class="brand" href="#">6G1W</a>
@@ -26,6 +34,7 @@
 		      </ul>
 		    </div>
 		</div>
+		-->
 		
 		<div id="content">
 			<h1>Quizzes</h1>

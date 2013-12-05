@@ -1,3 +1,8 @@
+<?php
+
+  $currentPage="Dictionary";
+
+?>
 <!DOCTYPE html>
 <html lang='en'>
     <head>
@@ -15,6 +20,8 @@
 	</head>
     <a name="top"></a>
     <body>	
+		<?php include("navigation.php"); ?>
+		<!--
 		<div class="navbar">
 		    <div class="navbar-inner">
 		      <a class="brand" href="#">6G1W</a>
@@ -27,6 +34,7 @@
 		      </ul>
 		    </div>
 		</div>
+		-->
 		
 		<div id="content">
 			<h1>Dictionary</h1>
