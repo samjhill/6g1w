@@ -16,17 +16,17 @@
 		<script src="js/main.js"></script>
     </head>
 
-    <body>		
+    <body onload="getGallery();">		
 		<?php include("navigation.php"); ?>
 		
         <div id="content">
 			
 	    <h1>Gallery</h1>
-            <button onclick="getGallery('apple');">test</button>
 	    <div id="gallery"></div>	  
 			
 			
         </div>
+		
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		
     </body>
