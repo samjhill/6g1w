@@ -8,7 +8,7 @@
 /--------------------------------------------------------------*/
 
 // Destination URL: Where this proxy leads to.
-$destinationURL = 'http://www.otherdomain.com/backend.php';
+$destinationURL = 'http://www.cssmania.com/api/api.php?search=' + $_GET['search'];
 
 // The only domain from which requests are authorized.
 $RequestDomain = 'mydomain.com';
