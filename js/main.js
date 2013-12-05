@@ -21,7 +21,7 @@ function parseXml(xml){
             
             
             $('#gallery').append('<h3>' + title + '</h3>');
-            $('#gallery').append('<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=APPLICATION KEY&url=http://www.google.com"></script>');
+            $('#gallery').append('<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ&url=' + link +'"></script>');
 	    $('#gallery').append('<a href="' + link + '">' + link + '</a></div>');
     });
     
