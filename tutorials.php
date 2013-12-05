@@ -20,7 +20,7 @@
 	</head>
     <body>	
 		<!--php navigation include-->
-		<?php include("navigation.php"); ?>
+		<?php include("navigation_level2.php"); ?>
 		
 		<div id="content">
 			<h1>Tutorials</h1>

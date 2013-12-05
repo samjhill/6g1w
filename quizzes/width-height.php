@@ -50,7 +50,7 @@
 </head>
 <body>
 	<!--php navigation include-->
-	<?php include("../navigation.php"); ?>
+	<?php include("../navigation_level2.php"); ?>
     
     <div id="content">
         <form name ="quiz2" id="quiz2"
