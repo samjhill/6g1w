@@ -4,11 +4,11 @@ function getGallery(search){
     $.ajax({
 		type: "GET",
 		url: "php/proxy.php?search=" + search,
-		dataType: "xml",
-		success: parseXml
+		dataType: "json",
+		success: parseJson
 	     });
 }
 
-function parseXML(){
-    console.log(xml);
+function parseJson(json){
+    console.log(json);
 }
