@@ -12,8 +12,8 @@ function getGallery(search){
 }
 
 function parseXml(xml){
-    //console.log('parseXml called');
-    //console.log(xml);
+    
+    $('#gallery').append('<div class="container">');
     
     $(xml).find("item").each(function() {
             console.log(this);
@@ -25,4 +25,6 @@ function parseXml(xml){
             $('#gallery').append('<h3>' + title + '</h3>');
 	    $('#gallery').append('<a href="' + link + '">' + link + '</a></div>');
     });
+    
+    $('#gallery').append('</div>');
 }
