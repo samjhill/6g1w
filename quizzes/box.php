@@ -36,7 +36,7 @@
 			
 			if(errorMsg.length > (5*5) ) 
 			{
-				document.getElementById("error_message") .innerHTML = "You these answers wrong: <br/>" + errorMsg;	
+				document.getElementById("error_message") .innerHTML = "You got these answers wrong: <br/>" + errorMsg;	
 				document.getElementById("error_message") .style.display = "block";	
 			}
 			else{
