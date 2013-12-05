@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang='en'>
     <head>
 		<meta charset='utf-8' />
@@ -28,7 +28,7 @@
 		</div>
 		
 		<div id="content">
-		<h3><a href="../tutorials.html">< back</a></h3>
+		<h3><a href="../tutorials.php">< back</a></h3>
 		<h1>Adding Depth and Uniqueness</h1>
 		<h2>Borders and Backgrounds</h2>
 <p>Within CSS, there are various properties that can help you to make various items more unique to the look of the site. There are properties that allow you to change a border to any image you want, and same for the background.</p>
@@ -78,7 +78,10 @@ look like:</p>
 <p>Here, we see that the image used becomes the necessary length and height, and depending on the type, we see two different effects. The first is round, causes the image to be repeated for the entirety of the border, whereas stretch, causes the image to be stretched out to fit the size of the border. 
 Borders are very nice for adding a subtle pop to a menu or enhancing the difference between two containers. </p>
 
-        <h3><a href="../tutorials.html">< back to Tutorials</a></h3>
+        <h3><a href="../tutorials.php">< back to Tutorials</a></h3>
+	
+	<h3><a href="../quizzes/border-outline.php">< Border-outline Quiz</a></h3>
+	
 	</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="../assets/bootstrap/js/bootstrap.min.js"></script>

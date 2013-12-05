@@ -34,10 +34,10 @@
 			errorMsg += radioButtonValidation("q3", 4, "C")  + "<br/>";
 			errorMsg += radioButtonValidation("q4", 2, "T")  + "<br/>";;
 			errorMsg += radioButtonValidation("q5", 3, "A")  + "<br/>";
-			
-			if(errorMsg.length > (5*5) ) 
-			{
-				document.getElementById("error_message").innerHTML = "You these answers wrong: <br/>" + errorMsg;        
+
+      if(errorMsg.length > (5*5) )
+      {
+        document.getElementById("error_message").innerHTML = "You got these answers wrong: <br/>" + errorMsg;        
 				document.getElementById("error_message").style.display = "block";        
 			}
 			else
@@ -55,7 +55,7 @@
     <div id="content">
         <form name ="quiz2" id="quiz2"
           method="post" action="quiz2.html">
-        <h3><a href="../quizzes.html">< back</a></h3>    
+        <h3><a href="../quizzes.php">< back</a></h3>    
         
 		<h1>Width and Height</h1>
         

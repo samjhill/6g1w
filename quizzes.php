@@ -25,27 +25,27 @@
 		<div id="content">
 			<h1>Quizzes</h1>
 			<div id="box-quiz" class="quiz tutorial">
-			    <h4><a href="quizzes/box.html">Box</a></h4>
+			    <h4><a href="quizzes/box.php">Box</a></h4>
 			    <p>Some interesting text about taking a quiz on boxes goes here.</p>
 			</div>
 			
 			<div id="border-quiz" class="quiz tutorial">
-			    <h4><a href="quizzes/border-outline.html">Border & Outline</a></h4>
+			    <h4><a href="quizzes/border-outline.php">Border & Outline</a></h4>
 			    <p>Some interesting text about taking a quiz on borders goes here.</p>
 			</div>
 			
 			<div id="text-quiz" class="quiz tutorial">
-			    <h4><a href="quizzes/text.html">Text Properties</a></h4>
+			    <h4><a href="quizzes/text.php">Text Properties</a></h4>
 			    <p>Some interesting text about taking a quiz on text properties goes here.</p>
 			</div>
 			
 			<div id="width-height-quiz" class="quiz tutorial">
-			    <h4><a href="quizzes/width-height.html">Width & Height Properties</a></h4>
+			    <h4><a href="quizzes/width-height.php">Width & Height Properties</a></h4>
 			    <p>Some interesting text about taking a quiz on width & height properties goes here.</p>
 			</div>
 			
 			<div id="animation-quiz" class="quiz tutorial">
-			    <h4><a href="quizzes/animation.html">Animation Properties</a></h4>
+			    <h4><a href="quizzes/animation.php">Animation Properties</a></h4>
 			    <p>Some interesting text about taking a quiz on animation properties goes here.</p>
 			</div>
 		</div>

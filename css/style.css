@@ -115,6 +115,9 @@ label{
 }
 
 #side_navigation{
+    position:fixed;
+    display:block; 
+    background-color: white;
 	float: right;
 	width: 15%;
 	margin-right: 5em;
@@ -180,7 +183,7 @@ label{
     border: 1px solid #91D7F8;
     height: auto;
     margin: 1em;
-    padding-bottom: .5em;
+    padding-bottom: 1.5em;
 }
 .panel-body pre{
     width: 50%;    
