@@ -2,8 +2,8 @@ function getGallery(search){
     console.log('getGallery called');
     
     $.ajax({
-        url: 'php/proxy.php',
-        dataType: "json",
+        url: 'http://www.reddit.com/r/webdesignporn/top/.rss',
+        dataType: "xml",
         success: function (data) {
           console.log(data)
           alert(data);
