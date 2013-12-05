@@ -39,17 +39,17 @@
 					    <ul>
 						<li>
 						    <div class="popularItem" id="popular1">
-							<a href="dictionary.html#collapseBorder"><h3>Border</h3></a>
+							<a href="dictionary.php#collapseBorder"><h3>Border</h3></a>
 						    </div>
 						</li>
 						<li>
 						    <div class="popularItem" id="popular2">
-							<a href="dictionary.html#collapseColor"><h3>Color</h3></a>
+							<a href="dictionary.php#collapseColor"><h3>Color</h3></a>
 						    </div>
 						</li>
 						<li>
 						    <div class="popularItem" id="popular3">
-							<a href="dictionary.html#collapseDirection"><h3>Text-Direction</h3></a>
+							<a href="dictionary.php#collapseDirection"><h3>Text-Direction</h3></a>
 						    </div>
 						</li>
 						    <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapsePopular">
