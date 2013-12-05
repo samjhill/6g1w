@@ -101,6 +101,7 @@
 	
 	<!-- php bootstrap include-->    
 	<?php include( "../bootstrap.php");?>
+	
     </div>
 </body>
 </html>
