@@ -10,7 +10,3 @@ function getGallery(search){
         }
       });
 }
-
-function parseJson(json){
-    console.log(json);
-}
