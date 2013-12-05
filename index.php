@@ -16,6 +16,7 @@
 	</head>
 
     <body>		
+		<!--php navigation include-->
 		<?php include("navigation.php"); ?>
 		
         <div id="content">

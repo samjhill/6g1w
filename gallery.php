@@ -1,6 +1,6 @@
 <?php
 
-  $currentPage="Quizzes";
+  $currentPage="Gallery";
 
 ?>
 <!DOCTYPE html>
