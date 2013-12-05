@@ -28,11 +28,6 @@
         </div>
 		<script src="js/main.js"></script>
 		<script>
-		$.getJSON('http://whateverorigin.org/get?url=' + 
-			    encodeURIComponent('http://www.cssmania.com/api/api.php?search=apple'),
-			    function(data){
-			      $("#gallery").html(data.contents);
-		  });
 		    
 		</script>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
