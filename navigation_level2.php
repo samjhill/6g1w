@@ -2,7 +2,7 @@
 	<div class="navbar-inner">
 	  <a class="brand" href="#">6G1W</a>
 	  <ul class="nav">
-		<li><a href="../index.php" <?php if ($currentPage=="Home") ? "class='active'" : ""; ?>><i class="fa fa-home fa-fw"></i>Home</a></li>
+		<li><a href="../index.php" <?php if echo ($currentPage=="Home") ? "class='active'" : ""; ?>><i class="fa fa-home fa-fw"></i>Home</a></li>
 		<li><a href="../dictionary.php" <?php if ($currentPage=="Dictionary") echo "class=\"active\""; ?>><i class="fa fa-book fa-fw"></i> Dictionary</a></li>
 		<li><a href="../tutorials.php" <?php if ($currentPage=="Tutorials") echo "class=\"active\""; ?>><i class="fa fa-pencil-square fa-fw"></i>Tutorials</a></li>
 		<li><a href="../quizzes.php" <?php if ($currentPage=="Quizzes") echo "class=\"active\""; ?>><i class="fa fa-question fa-fw"></i>Quizzes</a></li>
