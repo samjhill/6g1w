@@ -11,7 +11,7 @@
 $destinationURL = 'http://www.cssmania.com/api/api.php?search=' + $_GET['search'];
 
 // The only domain from which requests are authorized.
-$RequestDomain = 'mydomain.com';
+$RequestDomain = 'samjhill.com';
 
 // That's it for configuration!
 
