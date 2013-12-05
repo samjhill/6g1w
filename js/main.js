@@ -13,18 +13,14 @@ function getGallery(search){
 
 function parseXml(xml){
     
-    $('#gallery').append('<div class="container">');
-    
     $(xml).find("item").each(function() {
+            
             console.log(this);
             var title = $(this).find("title").text();
-            console.log(title);
 	    var link =  $(this).find("link").text();
-            console.log(link);
-            $('#gallery').append('<div class="well">')
+            $('#gallery').append('<div class="">')
             $('#gallery').append('<h3>' + title + '</h3>');
 	    $('#gallery').append('<a href="' + link + '">' + link + '</a></div>');
     });
     
-    $('#gallery').append('</div>');
 }
