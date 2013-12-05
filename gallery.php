@@ -21,7 +21,7 @@
         <div id="content">
 			
 	    <h1>Gallery</h1>
-            <button onclick="getGallery('authentic');">test</button>
+            <button onclick="getGallery('apple');">test</button>
 	    <div id="gallery"></div>	  
 			
 			
