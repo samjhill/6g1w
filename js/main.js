@@ -5,7 +5,7 @@ function getGallery(search){
 		type: "GET",
 		url: "php/proxy.php",
 		dataType: "xml",
-		success: pargfdas
+		success: parseXml
 	     });
     
     console.log('ajax request complete');
