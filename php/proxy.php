@@ -1,7 +1,7 @@
 
 <?php
 // Set your return content type
-header('Content-type: application/json');
+header('Content-type: json');
 
 // Website url to open
 $daurl = 'http://www.cssmania.com/api/api.php?search=' + $_GET['search'];
