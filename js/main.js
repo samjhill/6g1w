@@ -9,4 +9,6 @@ function getGallery(search){
           alert(data);
         }
       });
+    
+    console.log('ajax request complete');
 }

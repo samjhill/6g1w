@@ -28,6 +28,6 @@
 			
         </div>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="jquery.cssmania.js" type="text/javascript"></script>
+		
     </body>
 </html>
