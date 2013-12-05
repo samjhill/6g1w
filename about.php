@@ -33,7 +33,7 @@
 			    <div class="info-text">
 				<h3>Shane Date</h3>
 				<a href="#" target="_blank">www.website.com</a>
-				<p>Filler text</p>
+				<p>I am a fourth year Information Technology student from Brooklyn, New York. Some of my hobbies include playing video games, playing basketball, and keeping up to date with tech news</p>
 			    </div>
 			</div>
 			
