@@ -1,6 +1,6 @@
 function getGallery(search){
     console.log('getGallery called');
-    $.getJSON( "php/proxy.php", function( data ) {
+    $.getJSON( "php/proxy.php?search=" + search, function( data ) {
         var items = [];
         $.each( data, function( key, val ) {
           items.push( "<li id='" + key + "'>" + val + "</li>" );
