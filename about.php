@@ -42,7 +42,7 @@
 			    <div class="info-text">
 				<h3>Daniel Dorrity</h3>
 				<a href="#" target="_blank">www.website.com</a>
-				<p>Filler text</p>
+				<p>I am a second year Information Technology student from north New Jersey. I enjoy playing video games, coding apps, and throwing a frisbee every now and again.</p>
 			    </div>
 			</div>
 			
