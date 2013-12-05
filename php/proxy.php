@@ -73,9 +73,9 @@ function proxy_request($url, $data, $method) {
     // parse the given URL
     $url = parse_url($url);
  
-    if ($url['scheme'] != 'http') { 
-        die('Error: Only HTTP request are supported !');
-    }
+    //if ($url['scheme'] != 'http') { 
+    //    die('Error: Only HTTP request are supported !');
+    //}
  
     // extract host and path:
     $host = $url['host'];
