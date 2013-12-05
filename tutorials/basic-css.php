@@ -26,15 +26,6 @@
 		      </ul>
 		    </div>
 		</div>
-
-		<div id="side_navigation">
-				<h2>Jump to</h2>
-				<ul>
-					<li><a href="#what-is">What is CSS?</a></li>
-					<li><a href="#how-to">How to</a></li>
-					<li><a href="#style-format">Style Format</a></li>
-				</ul>
-		</div>
 		
 		<div id="content">
 		<h3><a href="../tutorials.php">< back</a></h3>
