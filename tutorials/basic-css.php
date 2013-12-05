@@ -34,7 +34,7 @@
 					<li><a href="#how-to">How to</a></li>
 					<li><a href="#style-format">Style Format</a></li>
 				</ul>
-			</div>
+		</div>
 		
 		<div id="content">
 		<h3><a href="../tutorials.php">< back</a></h3>
