@@ -12,10 +12,12 @@ function getGallery(search){
 }
 
 function parseXml(xml){
-    console.log('parseXml called');
-    console.log(xml);
+    //console.log('parseXml called');
+    //console.log(xml);
     
     $(xml).find("item").each(function() {
+            console.log('items');
+            console.log(item);
 	    var link =  $(this).find("link").text();
 	    $('#gallery').append('<a href="' + link + '>' + link + '</a>');
     });
