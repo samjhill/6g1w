@@ -1,10 +1,10 @@
 
 <?php
 // Set your return content type
-header('Content-type: application/json');
+header('Content-type: application/xml');
 
 // Website url to open
-$daurl = 'http://www.cssmania.com/api/api.php?search=' + $_GET['search'];
+$daurl = 'http://www.reddit.com/r/webdesignporn/top/.rss';
 
 // Get that website's content
 $handle = fopen($daurl, "r");
