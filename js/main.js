@@ -21,7 +21,7 @@ function parseXml(xml){
             console.log(title);
 	    var link =  $(this).find("link").text();
             console.log(link);
-            //$('#gallery').append(this);
-	    //$('#gallery').append('<a href="' + link + '>' + link + '</a>');
+            $('#gallery').append('<h3>' + title + '</h3>');
+	    $('#gallery').append('<a href="' + link + '">' + link + '</a>');
     });
 }
