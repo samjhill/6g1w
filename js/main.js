@@ -16,9 +16,9 @@ function parseXml(xml){
     //console.log(xml);
     
     $(xml).find("item").each(function() {
-            console.log('items');
             console.log(this);
 	    var link =  $(this).find("link").text();
+            $('#gallery').append(this);
 	    $('#gallery').append('<a href="' + link + '>' + link + '</a>');
     });
 }
