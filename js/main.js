@@ -19,7 +19,7 @@ function parseXml(xml){
             var title = $(this).find("title").text();
 	    var link =  $(this).find("link").text();
             $('#gallery').append('<h3>' + title + '</h3>');
-            $('#gallery').append('<img src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ&url=' + link + '"></img>');
+            $('#gallery').append('<img src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=' + link + '"></img>');
 	    $('#gallery').append('<a href="' + link + '">' + link + '</a></div>');
     });
     
