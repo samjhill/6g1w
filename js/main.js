@@ -3,7 +3,7 @@ function getGallery(search){
     
     $.ajax({
         url: 'http://www.cssmania.com/api/api.php?search=' + $_GET['search'],
-        dataType: "jsonp",
+        dataType: "json",
         success: function (data) {
           console.log(data)
           alert(data);
