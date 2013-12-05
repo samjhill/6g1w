@@ -21,7 +21,7 @@
         <div id="content">
 			
 	    <h1>Gallery</h1>
-            
+            <button onclick="getGallery();">test</button>
 	    <div id="gallery"></div>	  
 			
 			
@@ -29,7 +29,7 @@
 		<script src="js/main.js"></script>
 		<script>
 		    
-		    $(this).getGallery();
+		    
 		</script>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
     </body>
