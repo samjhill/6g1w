@@ -26,16 +26,25 @@
 		      </ul>
 		    </div>
 		</div>
+
+		<div id="side_navigation">
+				<h2>Jump to</h2>
+				<ul>
+					<li><a href="#what-is">What is CSS?</a></li>
+					<li><a href="#how-to">How to</a></li>
+					<li><a href="#style-format">Style Format</a></li>
+				</ul>
+			</div>
 		
 		<div id="content">
 		<h3><a href="../tutorials.php">< back</a></h3>
 		<h1>Basic CSS Walkthrough - CSS Tutorial</h1>
 			
 
-		<h3>What is CSS?</h3>
+		<h3 id="what-is">What is CSS?</h3>
 			<p>CSS stands for Cascading Style Sheet, and is used in creating the design presentation for a document written in a markup language, with the most popular being HTML. When used with HTML, CSS creates a flow and elegance within the website unachievable otherwise.</p>
 		
-		<h3>How to:</h3>
+		<h3 id="how-to">How to:</h3>
 			<p>CSS uses hundreds of properties in order to turn basic HTML into something extravagant. But the most important thing you can do before you can see these properties at work, is call them, and you can call them in a few different ways.</p>
 			
 			<p>First, you can call the property within the HTML tag, known as inline.
@@ -84,7 +93,7 @@ body{}
 }</pre>
 		    </p>
 		
-		<h3>Style Format:</h3>
+		<h3 id="style-format">Style Format:</h3>
 			<p>So you just made your first external style sheet, and are ready to fill it up to make your HTML page all nice and pretty. But one of the major aspects of any coding is further readability from others, which is why we want to introduce the idea of formatting the stylesheet. There are many different ways to do this, but we will talk about 2 of the major formatting styles.</p>
 			<p>Both of the following formats have a specific scheme for the HTML tags, ids and classes being called by the CSS file. The best way we find to do this, is to segment the CSS file into three portions: a portion for HTML tags, one for classes, and one for ids. This helps you to know where a specific item is in the file, especially when you have several different ids and classes being manipulated.</p>
 			<p>The second format process comes within these three portions. In each portion, the best way to format the tags is alphabetically. This helps you to effortlessly find the tag, id or class you’re looking for, while still keeping the file as a whole organized. </p>
