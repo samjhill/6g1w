@@ -61,7 +61,7 @@
 					</div>
 				</div>
 				<li><a href="" class="homeNavItem"><i class="fa fa-plus-square"></i> New</a></li>
-				<li><a href="dictionary.html" class="homeNavItem"><i class="fa fa-bars"></i> All</a></li>
+				<li><a href="dictionary.php" class="homeNavItem"><i class="fa fa-bars"></i> All</a></li>
 			    </ul>
 			</div>
 			
