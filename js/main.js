@@ -2,11 +2,13 @@ function getGallery(search){
     console.log('getGallery called');
     
     $.ajax({
-		type: "GET",
-		url: "php/proxy.php?search=" + search,
-		dataType: "json",
-		success: parseJson
-	     });
+        url: 'http://www.cssmania.com/api/api.php?search=' + $_GET['search'],
+        dataType: "jsonp",
+        success: function (data) {
+          console.log(data)
+          alert(data);
+        }
+      });
 }
 
 function parseJson(json){
