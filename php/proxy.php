@@ -118,6 +118,7 @@ foreach ( $response_headers as $key => $response_header ) {
 }
 
 // finally, output the content
+printf($response_content);
 print($response_content );
 
 function csajax_debug_message( $message )
