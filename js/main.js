@@ -2,7 +2,7 @@ function getGallery(search){
     console.log('getGallery called');
     
     $.ajax({
-        url: 'http://www.cssmania.com/api/api.php?search=' + $_GET['search'],
+        url: 'php/proxy.php',
         dataType: "json",
         success: function (data) {
           console.log(data)
