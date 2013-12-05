@@ -23,7 +23,6 @@ function parseXml(xml){
             console.log(link);
             $('#gallery').append('<div class="well">')
             $('#gallery').append('<h3>' + title + '</h3>');
-	    $('#gallery').append('<a href="' + link + '">' + link + '</a>');
-            $('#gallery').append('</div>');
+	    $('#gallery').append('<a href="' + link + '">' + link + '</a></div>');
     });
 }
