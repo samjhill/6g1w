@@ -1,130 +1,140 @@
 <?php
+/*--------------------------------------------------------------/
+| PROXY.PHP                                                     |
+| Created By: Eric-Sebastien Lachance                           |
+| Contact: eslachance@gmail.com                                 |
+| Description: This proxy does a POST or GET request from any   |
+|         page on the authorized domain to the defined URL      |
+/--------------------------------------------------------------*/
 
-/**
- * AJAX Cross Domain (PHP) Proxy 0.7
- *    by Iacovos Constantinou (http://www.iacons.net)
- * 
- * Released under CC-GNU GPL
- */
+// Destination URL: Where this proxy leads to.
+$destinationURL = 'http://www.otherdomain.com/backend.php';
 
-/**
- * Enables or disables filtering for cross domain requests.
- * Recommended value: true
- */
-define( 'CSAJAX_FILTERS', true );
+// The only domain from which requests are authorized.
+$RequestDomain = 'mydomain.com';
 
-/**
- * If set to true, $valid_requests should hold only domains i.e. a.example.com, b.example.com, usethisdomain.com
- * If set to false, $valid_requests should hold the whole URL ( without the parameters ) i.e. http://example.com/this/is/long/url/
- * Recommended value: false (for security reasons - do not forget that anyone can access your proxy)
- */
-define( 'CSAJAX_FILTER_DOMAIN', false );
+// That's it for configuration!
 
-/**
- * Set debugging to true to receive additional messages - really helpful on development
- */
-define( 'CSAJAX_DEBUG', true );
-
-/**
- * A set of valid cross domain requests
- */
-$valid_requests = array(
-        'http://www.cssmania.com/api/api.php?search=' . $_GET['search'];
-);
-
-
-/* * * STOP EDITING HERE UNLESS YOU KNOW WHAT YOU ARE DOING * * */
-
-// identify request headers
-$request_headers = array( );
-foreach ( $_SERVER as $key => $value ) {
-        if ( substr( $key, 0, 5 ) == 'HTTP_' ) {
-                $headername = str_replace( '_', ' ', substr( $key, 5 ) );
-                $headername = str_replace( ' ', '-', ucwords( strtolower( $headername ) ) );
-                if ( !in_array( $headername, array( 'Host', 'X-Proxy-Url' ) ) ) {
-                        $request_headers[] = "$headername: $value";
-                }
+if(!function_exists('apache_request_headers')) {
+// Function is from: http://www.electrictoolbox.com/php-get-headers-sent-from-browser/
+    function apache_request_headers() {
+        $headers = array();
+        foreach($_SERVER as $key => $value) {
+            if(substr($key, 0, 5) == 'HTTP_') {
+                $headers[str_replace(' ', '-', ucwords(str_replace('_', ' ', strtolower(substr($key, 5)))))] = $value;
+            }
         }
+        return $headers;
+    }
 }
 
-// identify request method, url and params
-$request_method = $_SERVER['REQUEST_METHOD'];
-$request_params = ( $request_method == 'GET' ) ? $_GET : $_POST;
-// Get URL from `csurl` in GET or POST data, before falling back to X-Proxy-URL header.
-$request_url = urldecode( isset( $_REQUEST['csurl'] ) ? $_REQUEST['csurl'] : $_SERVER['HTTP_X_PROXY_URL'] );
-$p_request_url = parse_url( $request_url );
-unset( $request_params['csurl'] );
-
-// ignore requests for proxy :)
-if ( preg_match( '!' . $_SERVER['SCRIPT_NAME'] . '!', $request_url ) || empty( $request_url ) || count( $p_request_url ) == 1 ) {
-        csajax_debug_message( 'Invalid request - make sure that csurl variable is not empty' );
-        exit;
+// Figure out requester's IP to shipt it to X-Forwarded-For
+$ip = '';
+if (!empty($_SERVER['HTTP_CLIENT_IP'])) { 
+    $ip = $_SERVER['HTTP_CLIENT_IP'];
+    //echo "HTTP_CLIENT_IP: ".$ip;
+} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    //echo "HTTP_X_FORWARDED_FOR: ".$ip;
+} else {
+    $ip = $_SERVER['REMOTE_ADDR'];
+    //echo "REMOTE_ADDR: ".$ip;
 }
 
-// check against valid requests
-if ( CSAJAX_FILTERS ) {
-        $parsed = $p_request_url;
-        if ( CSAJAX_FILTER_DOMAIN ) {
-                if ( !in_array( $parsed['host'], $valid_requests ) ) {
-                        csajax_debug_message( 'Invalid domain - ' . $parsed['host'] . ' does not included in valid requests' );
-                        exit;
-                }
+preg_match('@^(?:http://)?([^/]+)@i', $_SERVER['HTTP_REFERER'], $matches);
+$host = $matches[1];
+preg_match('/[^.]+\.[^.]+$/', $host, $matches);
+$domainName = "{$matches[0]}";
+
+if($domainName == $RequestDomain) {
+
+    $method = $_SERVER['REQUEST_METHOD'];
+    $response = proxy_request($destinationURL, ($method == "GET" ? $_GET : $_POST), $method);
+    $headerArray = explode("\r\n", $response[header]);
+
+    foreach($headerArray as $headerLine) {
+     header($headerLine);
+    }
+    echo $response[content];
+ 
+  } else {
+
+    echo "HTTP Referer is not recognized. Cancelling all actions";
+
+  }
+
+function proxy_request($url, $data, $method) {
+// Based on post_request from http://www.jonasjohn.de/snippets/php/post-request.htm
+    global $ip;
+    // Convert the data array into URL Parameters like a=b&foo=bar etc.
+    $data = http_build_query($data);
+    $datalength = strlen($data);
+ 
+    // parse the given URL
+    $url = parse_url($url);
+ 
+    if ($url['scheme'] != 'http') { 
+        die('Error: Only HTTP request are supported !');
+    }
+ 
+    // extract host and path:
+    $host = $url['host'];
+    $path = $url['path'];
+    
+    // open a socket connection on port 80 - timeout: 30 sec
+    $fp = fsockopen($host, 80, $errno, $errstr, 30);
+ 
+    if ($fp){
+        // send the request headers:
+        if($method == "POST") {
+            fputs($fp, "POST $path HTTP/1.1\r\n");
         } else {
-                $check_url = isset( $parsed['scheme'] ) ? $parsed['scheme'] . '://' : '';
-                $check_url .= isset( $parsed['user'] ) ? $parsed['user'] . ($parsed['pass'] ? ':' . $parsed['pass'] : '') . '@' : '';
-                $check_url .= isset( $parsed['host'] ) ? $parsed['host'] : '';
-                $check_url .= isset( $parsed['port'] ) ? ':' . $parsed['port'] : '';
-                $check_url .= isset( $parsed['path'] ) ? $parsed['path'] : '';
-                if ( !in_array( $check_url, $valid_requests ) ) {
-                        csajax_debug_message( 'Invalid domain - ' . $request_url . ' does not included in valid requests' );
-                        exit;
-                }
+            fputs($fp, "GET $path?$data HTTP/1.1\r\n");
         }
-}
-
-// append query string for GET requests
-if ( $request_method == 'GET' && count( $request_params ) > 0 && (!array_key_exists( 'query', $p_request_url ) || empty( $p_request_url['query'] ) ) ) {
-        $request_url .= '?' . http_build_query( $request_params );
-}
-
-// let the request begin
-$ch = curl_init( $request_url );
-curl_setopt( $ch, CURLOPT_HTTPHEADER, $request_headers );   // (re-)send headers
-curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true );         // return response
-curl_setopt( $ch, CURLOPT_HEADER, true );           // enabled response headers
-// add post data for POST requests
-if ( $request_method == 'POST' ) {
-        curl_setopt( $ch, CURLOPT_POST, true );
-        curl_setopt( $ch, CURLOPT_POSTFIELDS, http_build_query( $request_params ) );
-}
-
-// retrieve response (headers and content)
-$response = curl_exec( $ch );
-curl_close( $ch );
-
-// split response to header and content
-list($response_headers, $response_content) = preg_split( '/(\r\n){2}/', $response, 2 );
-
-// (re-)send the headers
-$response_headers = preg_split( '/(\r\n){1}/', $response_headers );
-foreach ( $response_headers as $key => $response_header ) {
-        // Rewrite the `Location` header, so clients will also use the proxy for redirects.
-        if ( preg_match( '/^Location:/', $response_header ) ) {
-                list($header, $value) = preg_split( '/: /', $response_header, 2 );
-                $response_header = 'Location: ' . $_SERVER['REQUEST_URI'] . '?csurl=' . $value;
+        fputs($fp, "Host: $host\r\n");
+        
+        fputs($fp, "X-Forwarded-For: $ip\r\n");
+        fputs($fp, "Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7\r\n"); 
+        
+           $requestHeaders = apache_request_headers();
+        while ((list($header, $value) = each($requestHeaders))) {
+            if($header == "Content-Length") {
+                fputs($fp, "Content-Length: $datalength\r\n");
+            } else if($header !== "Connection" && $header !== "Host" && $header !== "Content-length") {
+                fputs($fp, "$header: $value\r\n");
+            }
         }
-        if ( !preg_match( '/^(Transfer-Encoding):/', $response_header ) ) {
-                header( $response_header, false );
+        fputs($fp, "Connection: close\r\n\r\n");
+        fputs($fp, $data);
+ 
+        $result = ''; 
+        while(!feof($fp)) {
+            // receive the results of the request
+            $result .= fgets($fp, 128);
         }
+    }
+    else { 
+        return array(
+            'status' => 'err', 
+            'error' => "$errstr ($errno)"
+        );
+    }
+ 
+    // close the socket connection:
+    fclose($fp);
+ 
+    // split the result header from the content
+    $result = explode("\r\n\r\n", $result, 2);
+ 
+    $header = isset($result[0]) ? $result[0] : '';
+    $content = isset($result[1]) ? $result[1] : '';
+ 
+    // return as structured array:
+    return array(
+        'status' => 'ok',
+        'header' => $header,
+        'content' => $content
+    );
 }
 
-// finally, output the content
-//printf($response_content);
-print($response_content );
-
-function csajax_debug_message( $message )
-{
-        if ( true == CSAJAX_DEBUG ) {
-                print $message . PHP_EOL;
-        }
-}
+?>
