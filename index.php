@@ -70,7 +70,7 @@
 					  <div class="panel-body">
 					    <ul>
 						<li>
-						    <div class="newItem" id="popular1">
+						    <div class="newItem" id="popular1" onload="setNew()">
 							<a id="newLink1" href="dictionary.php#collapseBorder"><h3 id = "newLinkId1"></h3></a>
 						    </div>
 						</li>
@@ -87,5 +87,6 @@
         </div>
 		
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/array.js"></script>
     </body>
 </html>
