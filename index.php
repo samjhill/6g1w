@@ -58,7 +58,27 @@
 				
 					</div>
 				</div>
-				<li><a href="" class="homeNavItem"><i class="fa fa-plus-square"></i> New</a></li>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a class="accordion-toggle homeNavItem" data-toggle="collapse" data-parent="#accordion" href="#collapseNew">
+						  <i class="fa fa-heart-o"></i> New</a>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseNew" class="panel-collapse collapse">
+					  <div class="panel-body">
+					    <ul>
+						<li>
+						    <div class="newItem" id="popular1">
+							<a href="dictionary.php#collapseBorder"><h3>Border</h3></a>
+						    </div>
+						</li>
+                            <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapsePopular">
+							Close
+						    </a>
+					</div>
+				</div>
 				<li><a href="dictionary.php" class="homeNavItem"><i class="fa fa-bars"></i> All</a></li>
 			    </ul>
 			</div>
