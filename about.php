@@ -61,7 +61,7 @@
 			    <div class="info-text">
 				<h3>Li Liu</h3>
 				<a href="#" target="_blank">www.website.com</a>
-				<p>Description: Hi, I am Li. I come from Shenzhen,China. I am a Third year IT student. I love web development, and I do film-making for fun. I love to exercise in the morning. </p>
+				<p>Hi, I am Li. I come from Shenzhen,China. I am a Third year IT student. I love web development, and I do film-making for fun. I love to exercise in the morning. </p>
 			    </div>
 			</div>
 		</div>
