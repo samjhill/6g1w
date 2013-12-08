@@ -29,7 +29,7 @@
 	    <script>
 		$(".gallery-item").each( function(index, value ){
 		    console.log(value);
-		    $(this).append('<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/glamour/"></script');
+		    $(this).append('<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/glamour/"></script>');
 		});
 	    </script>
 	    
