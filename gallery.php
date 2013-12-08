@@ -26,6 +26,7 @@
 	    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/glamour/"></script>
 	    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/link-digital/"></script>
 	    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/andy-patrick-design/"></script>
+	    <h3>Updated just now</h3>
 	    <div id="gallery"></div>	  
 			
 			
