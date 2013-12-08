@@ -62,40 +62,40 @@
         
         <div class="question">
             <span>Q1) Which property adds color to a text?</span>
-            <label for ="q1a1"><input type="radio" name="q1" value="incorrect" id="q1a1"/> new-color</label>
-            <label for ="q1a2"><input type="radio" name="q1" value="incorrect" id="q1a2"/>  current-color</label>
-			<label for ="q1a3"><input type="radio" name="q1" value="correct" id="q1a3"/> color</label>
-			<label for ="q1a4"><input type="radio" name="q1" value="incorrect" id="q1a4"/> change-color</label>
+            <label for ="q1a1"><input type="radio" name="q1" value="incorrect" id="q1a1"/> a) new-color</label>
+            <label for ="q1a2"><input type="radio" name="q1" value="incorrect" id="q1a2"/> b) current-color</label>
+			<label for ="q1a3"><input type="radio" name="q1" value="correct" id="q1a3"/> c) color</label>
+			<label for ="q1a4"><input type="radio" name="q1" value="incorrect" id="q1a4"/> d) change-color</label>
 	   </div>
         
         <div class="question">
             <span>Q2) Which property change background color?</span>
-            <label for ="q2a1"><input type="radio" name="q2" value="incorrect" id="q2a1"/>  color:blue;</label>
-            <label for ="q2a2"><input type="radio" name="q2" value="incorrect" id="q2a2"/> background: blue;</label>
-			<label for ="q2a3"><input type="radio" name="q2" value="correct" id="q2a2"/> background-color: blue;</label>
-			<label for ="q2a4"><input type="radio" name="q2" value="incorrect" id="q2a2"/> color_background: blue;</label>
+            <label for ="q2a1"><input type="radio" name="q2" value="incorrect" id="q2a1"/> a) color:blue;</label>
+            <label for ="q2a2"><input type="radio" name="q2" value="incorrect" id="q2a2"/> b) background: blue;</label>
+			<label for ="q2a3"><input type="radio" name="q2" value="correct" id="q2a2"/> c) background-color: blue;</label>
+			<label for ="q2a4"><input type="radio" name="q2" value="incorrect" id="q2a2"/> d) color_background: blue;</label>
 		</div>
         
 		<div class="question">
             <span>Q3) Which property can be used to move the text to the right side of the webpage?</span>
-            <label for ="q3a1"><input type="radio" name="q3" value="correct" id="q3a1"/> direction</label>
-            <label for ="q3a2"><input type="radio" name="q3" value="incorrect" id="q3a2"/> move-right </label>
-			<label for ="q3a3"><input type="radio" name="q3" value="incorrect" id="q3a3"/> align-rightmost</label>
-			<label for ="q3a4"><input type="radio" name="q3" value="incorrect" id="q3a4"/> page-alignment</label>
+            <label for ="q3a1"><input type="radio" name="q3" value="correct" id="q3a1"/> a) direction</label>
+            <label for ="q3a2"><input type="radio" name="q3" value="incorrect" id="q3a2"/> b) move-right </label>
+			<label for ="q3a3"><input type="radio" name="q3" value="incorrect" id="q3a3"/> c) align-rightmost</label>
+			<label for ="q3a4"><input type="radio" name="q3" value="incorrect" id="q3a4"/> d) page-alignment</label>
 		</div>
 		
         <div class="question">
             <span>Q4)How do you set the shadow for an element?</span>
-            <label for ="q4a1"><input type="radio" name="q4" value="incorrect" id="q4a1"/> shadow-box</label>
-            <label for ="q4a2"><input type="radio" name="q4" value="correct" id="q4a2"/> box-shadow</label>
-			<label for ="q4a3"><input type="radio" name="q4" value="incorrect" id="q4a3"/> box-border</label>
-			<label for ="q4a3"><input type="radio" name="q4" value="incorrect" id="q4a4"/> box-outline</label>
+            <label for ="q4a1"><input type="radio" name="q4" value="incorrect" id="q4a1"/> a) shadow-box</label>
+            <label for ="q4a2"><input type="radio" name="q4" value="correct" id="q4a2"/> b) box-shadow</label>
+			<label for ="q4a3"><input type="radio" name="q4" value="incorrect" id="q4a3"/> c) box-border</label>
+			<label for ="q4a3"><input type="radio" name="q4" value="incorrect" id="q4a4"/> d) box-outline</label>
 		</div>
         
 		<div class="question">
 			<span>Q5)Border-left-color sets only the color of the </span>
-            <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/> T</label>
-            <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/> F</label>
+            <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/> a) T</label>
+            <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/> b) F</label>
 		</div>
 		
         <button type="button" class="btn btn-primary" onclick="validate();">Grade My Exam</button>
