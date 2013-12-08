@@ -7,4 +7,4 @@ var rand = array[Math.floor(Math.random() * array.length)];
 
 document.getElementById("newLink1").href += rand;
 
-console.log(rand);
+console.log(document.getElementById("newLink1").href);
