@@ -221,7 +221,8 @@ a.active{
 
 .team-member{
     margin-bottom: 5em;
-	height: 250px;
+	height: 350px;
+	background-color: red;
 }
 .team-member img{
 	width: 150px;
