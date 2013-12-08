@@ -175,6 +175,9 @@ label{
     color: white;
     background-color: #595241;
 }
+a.active{
+	background-color: #595241;
+}
 /* end nav bar styles */
 
 .panel.panel-default
@@ -214,6 +217,10 @@ label{
 
 .team-member{
     margin-bottom: 5em;
+}
+.team-member img{
+	width: 150px;
+	height: 150px;
 }
 
 .textarea_div, .iframe{
