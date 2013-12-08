@@ -7,4 +7,6 @@ var rand = array[Math.floor(Math.random() * array.length)];
 
 document.getElementById("newLink1").href += rand;
 
-console.log(document.getElementById("newLink1").href);
+var name = rand.match(/[A-Z][a-z]+/g);
+
+document.getElementById("newLinkId1").h3 = name;
