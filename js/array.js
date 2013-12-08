@@ -7,9 +7,8 @@ function setNew(field)
 
     var rand = array[Math.floow(Math.random() * array.length)];
 
-    field.href += rand;
-
-    console.log(rand);
+    var link = $('#newLink1');
+    link.attr('href', link.attr('href') + rand);
 
     var name = document.getElementById("newLinkId1");
 
