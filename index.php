@@ -67,10 +67,10 @@
 					  </h4>
 					</div>
 					<div id="collapseNew" class="panel-collapse collapse">
-					  <div class="panel-body">
+					  <div class="panel-body" onload="setNew()">
 					    <ul>
 						<li>
-						    <div class="newItem" id="popular1" onload="setNew()">
+						    <div class="newItem" id="popular1">
 							<a id="newLink1" href="dictionary.php#collapseBorder"><h3 id = "newLinkId1"></h3></a>
 						    </div>
 						</li>
