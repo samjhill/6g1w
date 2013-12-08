@@ -60,7 +60,7 @@
 		<h1>Width and Height Quiz</h1>
         
         <div class="question">
-            <span>Q1) What is the proper syntax for setting max-height?:</span>
+            <span>Q1) What is the proper syntax for setting max-height?</span>
             <label for ="q1a1"><input type="radio" name="q1" value="incorrect" id="q1a1"/> a) height = 50 50 50 50;</label>
             <label for ="q1a2"><input type="radio" name="q1" value="correct" id="q1a2"/> b)max-height= 100px;</label>
 			<label for ="q1a3"><input type="radio" name="q1" value="incorrect" id="q1a3"/> c)height.max = 200px;</label>
@@ -74,7 +74,7 @@
         </div>
         
 		<div class="question">
-            <span>Q3)Which of the following uses % to define a value</span>
+            <span>Q3)Which of the following uses % to define a value?</span>
             <label for ="q3a1"><input type="radio" name="q3" value="incorrect" id="q3a1"/>a)min-length </label>
             <label for ="q3a2"><input type="radio" name="q3" value="incorrect" id="q3a2"/>b)min-width</label>
 			<label for ="q3a3"><input type="radio" name="q3" value="correct" id="q3a3"/>c)height</label>
@@ -82,7 +82,7 @@
 		</div>
 		
         <div class="question">
-            <span>Q4)Which of the following use % to define a value</span>
+            <span>Q4)The percent symbol (%) can be used to define a value</span>
             <label for ="q4a1"><input type="radio" name="q4" value="correct" id="q4a1"/>T</label>
             <label for ="q4a2"><input type="radio" name="q4" value="incorrect" id="q4a2"/>F</label>
 		</div>
