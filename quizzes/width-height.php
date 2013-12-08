@@ -57,7 +57,7 @@
           method="post" action="quiz2.html">
         <h3><a href="../quizzes.php">< back</a></h3>    
         
-		<h1>Width and Height</h1>
+		<h1>Width and Height Quiz</h1>
         
         <div class="question">
             <span>Q1) What is the proper syntax for setting max-height?:</span>
