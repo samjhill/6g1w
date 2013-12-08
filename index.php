@@ -61,16 +61,16 @@
 				<div class="panel panel-default">
 					<div class="panel-heading">
 					  <h4 class="panel-title">
-						<a class="accordion-toggle homeNavItem" data-toggle="collapse" data-parent="#accordion" href="#collapsePopular">
+						<a class="accordion-toggle homeNavItem" data-toggle="collapse" data-parent="#accordion" href="#collapseNew">
 						  <i class="fa fa-heart-o"></i> New</a>
 						</a>
 					  </h4>
 					</div>
-					<div id="collapsePopular" class="panel-collapse collapse">
+					<div id="collapseNew" class="panel-collapse collapse">
 					  <div class="panel-body">
 					    <ul>
 						<li>
-						    <div class="popularItem" id="popular1">
+						    <div class="newItem" id="popular1">
 							<a href="dictionary.php#collapseBorder"><h3>Border</h3></a>
 						    </div>
 						</li>				
