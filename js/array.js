@@ -16,15 +16,15 @@ function setNew()
 
     var rand = array[Math.floor(Math.random() * array.length)];
 
-    console.log("rand: " + rand);
+    alert("rand: " + rand);
 
     var link = document.getElementById("newLink1");
 
-    console.log("link: " + link);
+    alert("link: " + link);
 
     link.href = "dictionary.php#" + rand;
 
-    console.log("link.href: " + link.href);
+    alert("link.href: " + link.href);
 
     var ele = document.getElementById("newLinkId1");
 
