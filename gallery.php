@@ -26,7 +26,11 @@
 			
 			
         </div>
+<<<<<<< HEAD
 		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ&url=google.com"></script>
+=======
+		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=google.com"></script>
+>>>>>>> 1307108e0723531cde4818040dca2810fc959ae2
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		
     </body>
