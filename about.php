@@ -38,7 +38,7 @@
 			</div>
 			
 			<div id="about-daniel" class="team-member">
-			    <img class="pull-left" src="http://placehold.it/150x150">
+			    <img class="pull-left" width="150px" height="150px" src="images/pic">
 			    <div class="info-text">
 				<h3>Daniel Dorrity</h3>
 				<a href="#" target="_blank">www.website.com</a>
