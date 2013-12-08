@@ -93,7 +93,7 @@
 		</div>
         
 		<div class="question">
-			<span>Q5)Border-left-color sets only the color of the </span>
+			<span>Q5)Border-left-color sets only the color of the left border </span>
             <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/> T</label>
             <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/> F</label>
 		</div>
