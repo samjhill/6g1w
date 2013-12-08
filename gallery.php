@@ -26,6 +26,10 @@
 			
 			
         </div>
+		$(".gallery-item").each( function(index, value ){
+		    console.log(value);
+		});
+		
 		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/glamour/"></script>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		
