@@ -9,6 +9,8 @@ function setNew(field)
 
     field.href += rand;
 
+    console.log(rand);
+
     var name = document.getElementById("newLinkId1");
 
     name.innerHTML(rand);
