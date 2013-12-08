@@ -162,7 +162,8 @@ label{
 }
 
 .navbar .nav > li > a:hover{
-    color: white;    
+    color: white;
+    background-color: #595241;
 }
 
 .navbar .brand{
@@ -175,11 +176,6 @@ label{
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
-    color: white;
-    background-color: #595241;
-}
-
-.navbar .na li a:hover{
     color: white;
     background-color: #595241;
 }
