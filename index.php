@@ -67,11 +67,11 @@
 					  </h4>
 					</div>
 					<div id="collapseNew" class="panel-collapse collapse">
-					  <div class="panel-body" onload="setNew()">
+					  <div class="panel-body">
 					    <ul>
 						<li>
 						    <div class="newItem" id="popular1">
-							<a id="newLink1" href="dictionary.php#collapseBorder"><h3 id = "newLinkId1"></h3></a>
+							<a id="newLink1" href="" onload="setNew(this)"><h3 id = "newLinkId1">Test</h3></a>
 						    </div>
 						</li>
                             <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapseNew">
