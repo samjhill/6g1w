@@ -175,6 +175,9 @@ label{
     color: white;
     background-color: #595241;
 }
+a.active{
+    background: #595241;
+}
 /* end nav bar styles */
 
 .panel.panel-default
