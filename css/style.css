@@ -178,6 +178,11 @@ label{
     color: white;
     background-color: #595241;
 }
+
+.navbar .na li a:hover{
+    color: white;
+    background-color: #595241;
+}
 a.active{
 	background-color: #595241;
 }
