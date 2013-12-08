@@ -78,8 +78,7 @@
 						    </a>
 					</div>
 				</div>
-				<li><a href="dictionary.php" class="homeNavItem"><i class="fa fa-bars"></i> All</a></li>
-			    </ul>
+				<a href="dictionary.php" class="homeNavItem"><i class="fa fa-bars"></i> All</a>
 			</div>
 			
 			
