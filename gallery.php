@@ -26,7 +26,7 @@
 			
 			
         </div>
-		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/glamour/&width=200&height=200&format=png&delay=1000"></script>
+		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/glamour/&width=200&height=200&format=png"></script>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		
     </body>
