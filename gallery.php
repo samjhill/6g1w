@@ -26,7 +26,7 @@
 			
 			
         </div>
-		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ&url=google.com"></script>
+		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=google.com"></script>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		
     </body>
