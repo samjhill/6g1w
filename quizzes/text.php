@@ -58,7 +58,7 @@
           method="post" action="quiz2.html">
         <h3><a href="../quizzes.php">< back</a></h3>    
         
-		<h1></h1>
+		<h1>Text Properties Quiz</h1>
         
         <div class="question">
             <span>Q1) Which property adds color to a text?</span>
