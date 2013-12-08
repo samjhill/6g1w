@@ -5,19 +5,23 @@ var array = ["collapseKeyframes", "collapseAnimation", "collapseAnimationName",
 
 var rand = array[Math.floor(Math.random() * array.length)];
 
-if (rand == array[0] || rand == array[1] || rand == array[2]
-    || rand == array[3] || rand == array[4] || rand == array[5]
-    || rand == array[6])
+console.log(rand);
+
+if (rand == "collapseKeyframes" || rand == "collapseAnimation" || rand == "collapseAnimationName"
+    || rand == "collapseAnimationDuration" || rand == "collapseAnimationTimingFunction" || rand == "collapseAnimationDelay"
+    || rand == "collapseAnimationIterationCount")
 {
     var name = "animation";
 }
-else if(rand == array[7] || rand == array[8])
+else if (rand == "collapseOverflowX" || rand == "collapseOverflowY")
 {
     var name = "box";
 }
-else if(rand == array[9])
+else if (rand == "collapseColorOpacity")
 {
     var name = "color";
 }
+
+console.log(name);
 
 document.getElementById("newLink1").href += name;
