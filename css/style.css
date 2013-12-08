@@ -238,7 +238,9 @@ a.active{
     padding-bottom: .5em;
 }
 
-
+.well{
+    width: 50%;
+}
 
 
 
