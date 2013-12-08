@@ -7,7 +7,7 @@ function setNew(field)
 
     var rand = array[Math.floow(Math.random() * array.length)];
 
-    field.href = "dictionary.php"//#" + rand;
+    field.href += rand;
 
     var name = document.getElementById("newLinkId1");
 
