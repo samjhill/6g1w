@@ -5,6 +5,15 @@ function setNew()
     "AnimationIterationCount", "OverflowX", "OverflowY", "ColorOpacity"
     ];
 
+    var r1 = Math.floor(Math.random() * array.length);
+    var r2 = Math.floor(Math.random() * array.length);
+
+    while((r1 == r2))
+    {
+        r1 = Math.floor(Math.random() * array.length);
+        r2 = Math.floor(Math.random() * array.length);
+    }
+
     var rand = array[Math.floor(Math.random() * array.length)];
 
     var link = document.getElementById("newLink1");
