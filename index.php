@@ -71,7 +71,7 @@
 					    <ul>
 						<li>
 						    <div class="newItem" id="popular1">
-							<a onload="setNew(this)" id="newLink1" href="dictionary.php#collapse"><h3 id = "newLinkId1">Test</h3></a>
+							<a id="newLink1" href="dictionary.php#collapse"><h3 id = "newLinkId1">Test</h3></a>
 						    </div>
 						</li>
                             <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapseNew">
