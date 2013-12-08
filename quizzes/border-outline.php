@@ -58,7 +58,7 @@
           method="post" action="quiz2.php">
         <h3><a href="../quizzes.php">< back</a></h3>    
         
-		<h1>Border and outline</h1>
+		<h1>Border and Outline Quiz</h1>
         
         <div class="question">
             <span>Q1) Which property sets the style of the bottom border of an element?</span>
