@@ -1,4 +1,5 @@
 <div class="navbar">
+	echo "navigation inside";
 	<div class="navbar-inner">
 	  <a class="brand" href="#">6G1W</a>
 	  <ul class="nav">

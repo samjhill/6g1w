@@ -1,7 +1,5 @@
 <?php
-
   $currentPage="Home";
-
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +18,6 @@
 		<?php include("navigation.php"); ?>
 		
         <div id="content">
-			
 			
 			<h1>Start your navigation here</h1>
             
