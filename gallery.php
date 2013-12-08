@@ -22,17 +22,22 @@
         <div id="content">
 			
 	    <h1>Gallery</h1>
+	    <!-- for some reason, this API won't work dynamically -->
+	    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/glamour/"></script>
+	    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/link-digital/"></script>
+	    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/andy-patrick-design/"></script>
 	    <div id="gallery"></div>	  
 			
 			
         </div>
 	    <script>
 		$(".gallery-item").each( function(index, value ){
+		    //grabzit api should go here but doesn't work this way
 		    $(this).append('');
 		});
 	    </script>
 	    
-		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.cssheaven.com/glamour/"></script>
+		
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		
     </body>
