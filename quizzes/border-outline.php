@@ -70,8 +70,8 @@
         
         <div class="question">
             <span>Q2)The property outline sets the style of all the outline properties in one statement.</span>
-            <label for ="q2a1"><input type="radio" name="q2" value="correct" id="q2a1"/>a) T</label>
-            <label for ="q2a2"><input type="radio" name="q2" value="incorrect" id="q2a2"/>b) F</label>
+            <label for ="q2a1"><input type="radio" name="q2" value="correct" id="q2a1"/> T</label>
+            <label for ="q2a2"><input type="radio" name="q2" value="incorrect" id="q2a2"/> F</label>
         </div>
         
 		<div class="question">
@@ -92,8 +92,8 @@
         
 		<div class="question">
 			<span>Q5)Border-left-color sets only the color of the </span>
-            <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/>a) T</label>
-            <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/>b)F</label>
+            <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/> T</label>
+            <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/> F</label>
 		</div>
 		
         <button type="button" class="btn btn-primary" onclick="validate() ;">Grade My Exam</button>

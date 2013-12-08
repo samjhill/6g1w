@@ -33,7 +33,7 @@
 			errorMsg += radioButtonValidation("q2", 4, "C")  + "<br/>";
 			errorMsg += radioButtonValidation("q3", 4, "A")  + "<br/>";
 			errorMsg += radioButtonValidation("q4", 4, "B")  + "<br/>";
-			errorMsg += radioButtonValidation("q3", 2, "T")  + "<br/>";
+			errorMsg += radioButtonValidation("q5", 2, "T")  + "<br/>";
 
       if(errorMsg.length > (5*5) )
       {
@@ -94,8 +94,8 @@
         
 		<div class="question">
 			<span>Q5)Border-left-color sets only the color of the </span>
-            <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/> a) T</label>
-            <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/> b) F</label>
+            <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/> T</label>
+            <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/> F</label>
 		</div>
 		
         <button type="button" class="btn btn-primary" onclick="validate();">Grade My Exam</button>

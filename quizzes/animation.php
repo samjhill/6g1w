@@ -87,14 +87,14 @@
 		
         <div class="question">
             <span>Q4)The CSS property @keyframes defines an animation
-            <label for ="q4a1"><input type="radio" name="q4" value="correct" id="q4a1"/>a)T</label>
-            <label for ="q4a2"><input type="radio" name="q4" value="incorrect" id="q4a2"/>b)F</label>
+            <label for ="q4a1"><input type="radio" name="q4" value="correct" id="q4a1"/> T</label>
+            <label for ="q4a2"><input type="radio" name="q4" value="incorrect" id="q4a2"/> F</label>
 		</div>
         
 		<div class="question">
 			<span>Q5)Animation-duration can be specified using seconds</span>
-            <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/>a)T</label>
-            <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/>b)F</label>
+            <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/> T</label>
+            <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/> F</label>
 		</div>
 		
         <button type="button" class="btn btn-primary" onclick="validate() ;">Grade My Exam</button>
