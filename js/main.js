@@ -15,7 +15,6 @@ function parseXml(xml){
     
     $(xml).find("item").each(function() {
             
-            console.log(this);
             var date = $(this).find("pubDate").text();
             var title = $(this).find("title").text();
 	    var link =  $(this).find("link").text();
