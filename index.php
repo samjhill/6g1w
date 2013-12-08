@@ -74,7 +74,7 @@
 							<a href="dictionary.php#collapseBorder"><h3>Border</h3></a>
 						    </div>
 						</li>
-                            <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapsePopular">
+                            <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapseNew">
 							Close
 						    </a>
 					</div>
