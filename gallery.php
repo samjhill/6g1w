@@ -22,17 +22,20 @@
         <div id="content">
 			
 	    <h1>Gallery</h1>
-	    <!-- for some reason, this API won't work dynamically -->
-	    <div onclick="location.href='http://www.dangersoffracking.com/';">
-		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.dangersoffracking.com/"></script>
-	    </div>
 	    
-	    <div onclick="location.href='http://www.fleeangrybear.com/';">
-		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.fleeangrybear.com/"></script>
-	    </div>
-	    
-	    <div onclick="location.href='http://sidigital.co/';">
-		<script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://sidigital.co/"></script>
+	    <div style="display:inline;">
+		<!-- for some reason, this API won't work dynamically -->
+		<div onclick="location.href='http://www.dangersoffracking.com/';">
+		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.dangersoffracking.com/"></script>
+		</div>
+		
+		<div onclick="location.href='http://www.fleeangrybear.com/';">
+		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.fleeangrybear.com/"></script>
+		</div>
+		
+		<div onclick="location.href='http://sidigital.co/';">
+		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://sidigital.co/"></script>
+		</div>
 	    </div>
 	    
 	    <h3>Updated just now</h3>
