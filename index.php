@@ -73,7 +73,10 @@
 						    <div class="newItem" id="popular1">
 							<a href="dictionary.php#collapseBorder"><h3>Border</h3></a>
 						    </div>
-						</li>				
+						</li>
+                            <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapsePopular">
+							Close
+						    </a>
 					</div>
 				</div>
 				<li><a href="dictionary.php" class="homeNavItem"><i class="fa fa-bars"></i> All</a></li>
