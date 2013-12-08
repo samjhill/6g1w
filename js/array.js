@@ -12,10 +12,11 @@ if (rand == "collapseKeyframes" || rand == "collapseAnimation" || rand == "colla
     || rand == "collapseAnimationIterationCount")
 {
     var name = "animation";
+    document.getElementById("newLinkId1").value = "Animation";
 }
 else if (rand == "collapseOverflowX" || rand == "collapseOverflowY")
 {
-    var name = "box";
+    var name = "box-properties";
 }
 else if (rand == "collapseColorOpacity")
 {
@@ -25,3 +26,4 @@ else if (rand == "collapseColorOpacity")
 console.log(name);
 
 document.getElementById("newLink1").href += name;
+
