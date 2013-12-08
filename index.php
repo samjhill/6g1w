@@ -36,7 +36,7 @@
 					    <ul>
 						<li>
 						    <div class="popularItem" id="popular1">
-							<a href="dictionary.php#collapseBorder"><h3>Border</h3></a>
+							<h3><a href="dictionary.php#collapseBorder">Border</a></h3>
 						    </div>
 						</li>
 						<li>
