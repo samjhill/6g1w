@@ -22,7 +22,6 @@
 			<h1>Start your navigation here</h1>
             
 			<div id="homeNav">
-			    <ul>
 				<!-- start collape line-height -->
 				<div class="panel panel-default">
 					<div class="panel-heading">
