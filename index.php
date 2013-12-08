@@ -62,7 +62,7 @@
 					<div class="panel-heading">
 					  <h4 class="panel-title">
 						<a class="accordion-toggle homeNavItem" data-toggle="collapse" data-parent="#accordion" href="#collapseNew">
-						  <i class="fa fa-heart-o"></i> New</a>
+						  <i class="fa fa-plus-square"></i> New</a>
 						</a>
 					  </h4>
 					</div>
@@ -70,8 +70,8 @@
 					  <div class="panel-body">
 					    <ul>
 						<li>
-						    <div class="newItem" id="popular1">
-							<a href="dictionary.php#collapseBorder"><h3>Border</h3></a>
+						    <div class="newItem" id="popular1" onload="setNew()">
+							<a id="newLink1" href="dictionary.php#collapseBorder"><h3 id = "newLinkId1"></h3></a>
 						    </div>
 						</li>
                             <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapseNew">
@@ -87,5 +87,6 @@
         </div>
 		
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/array.js"></script>
     </body>
 </html>
