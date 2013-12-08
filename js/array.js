@@ -1,32 +1,15 @@
-function setNew()
+function setNew(field)
 {
     var array = ["Keyframes", "Animation", "AnimationName",
     "AnimationDuration", "AnimationTimingFunction", "AnimationDelay",
     "AnimationIterationCount", "OverflowX", "OverflowY", "ColorOpacity"
     ];
 
-    var r1 = Math.floor(Math.random() * array.length);
-    var r2 = Math.floor(Math.random() * array.length);
+    var rand = array[Math.floow(Math.random() * array.length)];
 
-    while((r1 == r2))
-    {
-        r1 = Math.floor(Math.random() * array.length);
-        r2 = Math.floor(Math.random() * array.length);
-    }
+    this.href = "dictionary.php#" + rand;
 
-    var rand = array[Math.floor(Math.random() * array.length)];
+    var name = document.getElementById("newLinkId1");
 
-    alert("rand: " + rand);
-
-    var link = document.getElementById("newLink1");
-
-    alert("link: " + link);
-
-    link.href = "dictionary.php#" + rand;
-
-    alert("link.href: " + link.href);
-
-    var ele = document.getElementById("newLinkId1");
-
-    ele.h3 = rand;
+    name.innerHTML(rand);
 }
