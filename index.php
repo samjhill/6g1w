@@ -41,12 +41,12 @@
 						</li>
 						<li>
 						    <div class="popularItem" id="popular2">
-							<a href="dictionary.php#collapseColor"><h3>Color</h3></a>
+							<h3><a href="dictionary.php#collapseColor">Color</a></h3>
 						    </div>
 						</li>
 						<li>
 						    <div class="popularItem" id="popular3">
-							<a href="dictionary.php#collapseDirection"><h3>Text-Direction</h3></a>
+							<h3><a href="dictionary.php#collapseDirection">Text-Direction</a></h3>
 						    </div>
 						</li>
 						    <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapsePopular">
@@ -73,15 +73,17 @@
 							<h3 id = "newLinkId1"><a id="newLink1" href="dictionary.php#"></a></h3>
 						    </div>
 						</li>
-                            <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapseNew">
-							Close
-						    </a>
 					    </ul>
+					  <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapseNew">
+					    Close
+					  </a>
+					    
+					  </div>
 					</div>
-				</div>
+					
 				<a href="dictionary.php" class="homeNavItem"><i class="fa fa-bars"></i> All</a>
+				</div>
 			</div>
-			
 			
         </div>
 		
