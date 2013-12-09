@@ -97,7 +97,7 @@ label{
 	left: 110px;
 	top: 20px;
 	color: white;
-	font-style: bold;
+	font-weight: bold;
 }
 #icon img{
 	position: relative;
@@ -172,7 +172,7 @@ label{
 }
 
 .navbar-inner{
-   background-image: linear-gradient(to bottom, #8A0917, #8A0917); 
+   background: linear-gradient(to bottom, #8A0917, #8A0917); 
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
