@@ -35,7 +35,7 @@ else if(rand == "collapseAnimation")
 }
 else if(rand == "collapseAnimationName")
 {
-	var link = "collapseAnimation");
+	var link = "collapseAnimation";
 }
 else if(rand == "collapseAnimationDuration")
 {
