@@ -12,20 +12,20 @@ if (rand == "collapseKeyframes" || rand == "collapseAnimation" || rand == "colla
     || rand == "collapseAnimationIterationCount")
 {
     var name = "animation";
-    $('#newLinkId1').html("Animation");
+    $('#newLink1').html("Animation");
 }
 else if (rand == "collapseOverflowX" || rand == "collapseOverflowY")
 {
     var name = "box-properties";
-    $('#newLinkId1').html("Overflow");
+    $('#newLink1').html("Overflow");
 }
 else if (rand == "collapseColorOpacity")
 {
     var name = "color";
-    $('#newLinkId1').html("Color Opacity");
+    $('#newLink1').html("Color Opacity");
 }
 
 console.log(name);
 
-document.getElementById("newLink1").href += rand;
+$('newLink1').attr("href", "dictionary.php#" + name);
 
