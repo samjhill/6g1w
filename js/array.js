@@ -27,5 +27,5 @@ else if (rand == "collapseColorOpacity")
 
 console.log(name);
 
-document.getElementById('newLink1').href += "dictionary.php#" + rand;
-
+//document.getElementById('newLink1').href += "dictionary.php#" + rand;
+$('#newLink1').attr('href', 'dictionary.php#' + rand);
