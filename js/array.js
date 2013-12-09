@@ -5,8 +5,6 @@ var array = ["collapseKeyframes", "collapseAnimation", "collapseAnimationName",
 
 var rand = array[Math.floor(Math.random() * array.length)];
 
-console.log(rand);
-
 if(rand == "collapseKeyframes")
 {
 	var link = "animation";
@@ -57,7 +55,5 @@ else if(rand == "collapseColorOpacity")
 	var link = "collapseColor";
 	$('#newLink1').html("Color Opacity");
 }
-
-console.log(name);
 
 $('#newLink1').attr('href', 'dictionary.php#' + link);
