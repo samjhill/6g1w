@@ -57,7 +57,7 @@
     <div id="content">
         <form name ="quiz2" id="quiz2"
           method="post" action="quiz2.php">
-        <h3><a href="../quizzes.php">< back</a></h3>    
+        <h3><a href="../quizzes.php">back</a></h3>    
         
 		<h1>Animation Properties Quiz</h1>
         
@@ -86,7 +86,7 @@
 		</div>
 		
         <div class="question">
-            <span>Q4)The CSS property @keyframes defines an animation
+            <span>Q4)The CSS property @keyframes defines an animation</span>
             <label for ="q4a1"><input type="radio" name="q4" value="correct" id="q4a1"/> T</label>
             <label for ="q4a2"><input type="radio" name="q4" value="incorrect" id="q4a2"/> F</label>
 		</div>
