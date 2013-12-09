@@ -41,7 +41,7 @@ else if(rand == "collapseAnimationDuration")
 {
 	var link = "collapseAnimationName";
 }
-else if(rand == "collapseAnimationTimingFunction";
+else if(rand == "collapseAnimationTimingFunction")
 {
 	var link = "collapseAnimationDuration";
 }
