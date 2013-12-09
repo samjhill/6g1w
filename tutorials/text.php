@@ -24,7 +24,7 @@
 		<?php include("../navigation_level2.php"); ?>
 		
 		<div id="content">
-		<h3><a href="../tutorials.php">< back</a></h3>
+		<h3><a href="../tutorials.php">&lt; back</a></h3>
 		<h1>Shining Through Simplicity - Text Modification</h1>
 <p>Text is one of the key aspects to any webpage, as it is what the user will spend the most time on in their duration of their browsing. So how can we make it easier for the user to understand your message, without straining their eyes? Well first, we can change the font. It has been discovered that, between the two main styles of fonts: serif and sans-serif, a sans-serif font is more acceptable for a webpage, such as Verdana. To change your website’s font, you can do the following:</p>
 
@@ -64,7 +64,7 @@ a{
 
 <p>The color change allows the text color to become black, or whatever is within the site, while the text-decoration is getting rid of the underline for us. </p>
 <p>Text based properties allow you to add subtly to our website and uniqueness within the text, making it not only easier for the user to read, but allows you to stand out from other sites as well.</p>
-        <h3><a href="../tutorials.php">< back to Tutorials</a></h3>
+        <h3><a href="../tutorials.php">&lt; back to Tutorials</a></h3>
 	</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="../assets/bootstrap/js/bootstrap.min.js"></script>

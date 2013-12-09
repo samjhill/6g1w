@@ -71,7 +71,7 @@
 					    <ul>
 						<li>
 						    <div class="newItem" id="new1">
-							<h3 id = "newLinkId1"><a id="newLink1" href="dictionary.php#"></a></h3>
+							<h3 id = "newLinkId1"><a id="newLink1" href=""></a></h3>
 						    </div>
 						</li>
 					    </ul>
