@@ -24,7 +24,7 @@
 		<?php include("../navigation_level2.php"); ?>
 		
 		<div id="content">
-		<h3><a href="../tutorials.php">back</a></h3>
+		<h3><a href="../tutorials.php">&lt; back</a></h3>
 		<h1>Adding Depth and Uniqueness</h1>
 		<h2>Borders and Backgrounds</h2>
 	<p>Within CSS, there are various properties that can help you to make various items more unique to the look of the site. There are properties that allow you to change a border to any image you want, and same for the background.</p>

@@ -89,7 +89,7 @@
             <label for ="q4a1"><input type="radio" name="q4" value="incorrect" id="q4a1"/> a) shadow-box</label>
             <label for ="q4a2"><input type="radio" name="q4" value="correct" id="q4a2"/> b) box-shadow</label>
 			<label for ="q4a3"><input type="radio" name="q4" value="incorrect" id="q4a3"/> c) box-border</label>
-			<label for ="q4a3"><input type="radio" name="q4" value="incorrect" id="q4a4"/> d) box-outline</label>
+			<label for ="q4a4"><input type="radio" name="q4" value="incorrect" id="q4a4"/> d) box-outline</label>
 		</div>
         
 		<div class="question">

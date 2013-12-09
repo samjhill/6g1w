@@ -56,7 +56,7 @@
     <div id="content">
         <form name ="quiz2" id="quiz2"
           method="post" action="quiz2.php">
-        <h3><a href="../quizzes.php">< back</a></h3>    
+        <h3><a href="../quizzes.php">back</a></h3>    
         
 		<h1>Border and Outline Quiz</h1>
         
@@ -87,7 +87,7 @@
             <label for ="q4a1"><input type="radio" name="q4" value="incorrect" id="q4a1"/>a)shadow-box</label>
             <label for ="q4a2"><input type="radio" name="q4" value="correct" id="q4a2"/>b)box-shadow</label>
 			<label for ="q4a3"><input type="radio" name="q4" value="incorrect" id="q4a3"/>c)box-border</label>
-			<label for ="q4a3"><input type="radio" name="q4" value="incorrect" id="q4a4"/>d) box-outline</label>
+			<label for ="q4a4"><input type="radio" name="q4" value="incorrect" id="q4a4"/>d) box-outline</label>
 		</div>
         
 		<div class="question">
