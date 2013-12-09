@@ -8,10 +8,7 @@
     <head>
 		<meta charset='utf-8' />
 		<title>About 6G1W</title>
-		<link type="text/css" rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" />
-		<link type="text/css" rel="stylesheet" href="assets/prettify.css" />
-		<link type="text/css" rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
-		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<?php include("php/links.php"); ?>
 		<script>
 			function submit(){
 				alert("hey");

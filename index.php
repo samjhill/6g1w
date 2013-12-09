@@ -82,7 +82,7 @@
 				<a href="dictionary.php" class="homeNavItem"><i class="fa fa-bars"></i> All</a>
 				</div>
 				
-				<img src="images/logo.png" alt="logo" class="pull-right"></img>
+				<img src="images/logo.png" alt="logo" class="pull-right" style="margin-right: 3em;" />
 			</div>
 			
         </div>
