@@ -57,7 +57,7 @@
     <div id="content">
         <form name ="quiz2" id="quiz2"
           method="post" action="quiz2.php">
-        <h3><a href="../quizzes.php">back</a></h3>    
+        <h3><a href="../quizzes.php">&lt; back</a></h3>    
         
 		<h1>Animation Properties Quiz</h1>
         
