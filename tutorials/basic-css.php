@@ -24,7 +24,7 @@
 		<?php include("../navigation_level2.php"); ?>
 		
 		<div id="content">
-		<h3><a href="../tutorials.php">< back</a></h3>
+		<h3><a href="../tutorials.php">&lt; back</a></h3>
 		<h1>Basic CSS Walkthrough - CSS Tutorial</h1>
 			
 
@@ -78,7 +78,7 @@ body{}
     text: sans-serif;
     margin-left: 50%;
 }</pre>
-		    </p>
+		    
 		
 		<h3 id="style-format">Style Format:</h3>
 			<p>So you just made your first external style sheet, and are ready to fill it up to make your HTML page all nice and pretty. But one of the major aspects of any coding is further readability from others, which is why we want to introduce the idea of formatting the stylesheet. There are many different ways to do this, but we will talk about 2 of the major formatting styles.</p>
@@ -88,7 +88,7 @@ body{}
 				<p>The first option is to do it like above, where each property is listed in alphabetical order. This is useful because it diminishes the time needed to find each property.</p>
 				<p>The second option is to group each property by what they do. For instance, keep anything that modifies the text together, while everything changing the border is grouped together separated by a single space. This is very useful as it makes it easier to change a portion of the design as a whole. For example, if you want to change only the text, it is easier to find all the text properties within a tag as they are together, rather than having awkward spacing in between the different properties.</p>
 
-        <h3><a href="../tutorials.php">< back to Tutorials</a></h3>
+        <h3><a href="../tutorials.php">&lt; back to Tutorials</a></h3>
 	
 	
 	
