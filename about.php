@@ -39,7 +39,7 @@
 			
 			<div id="about-daniel" class="team-member">
 
-			    <img class="pull-left" alt="daniel"width="150" height="150" src="images/pic.jpg">
+			    <img class="pull-left" alt="daniel" width="150" height="150" src="images/pic.jpg">
 			    <div class="info-text">
 				<h3>Daniel Dorrity</h3>
 				<a href="#" target="_blank">www.website.com</a>
