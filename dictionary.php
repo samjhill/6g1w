@@ -18,8 +18,8 @@
 			}
 		</script>
 	</head>
-    <a name="top"></a>
-    <body>	
+    <body>
+      <a name="top"></a>
 		<!--php navigation include-->
 		<?php include("navigation.php"); ?>
 		
