@@ -29,7 +29,7 @@
 			<h2>Team Members</h2>
 			
 			<div id="about-shane" class="team-member">
-			    <img class="pull-left" width="150px" height="150px" src="images/prof.jpg">
+			    <img class="pull-left" width="150" height="150" src="images/prof.jpg">
 			    <div class="info-text">
 				<h3>Shane Date</h3>
 				<a href="#" target="_blank">www.website.com</a>
