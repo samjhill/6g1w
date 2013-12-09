@@ -65,14 +65,14 @@ background-repeat: (no-repeat/repeat/repeat-x/repeat-y/inherit);
 <p>This will cause the shadows on the bottom and side of the box to move left and right or up and down respectfully, based on the numerical value given. So if you wanted to make a div have a black shadow border, with very little variance in the shadow from the bottom of the div, it would 
 look like:</p>
 
-<pre class = "prettyprint">box-shadow: 2px 2px black;</pre></p>
+<pre class = "prettyprint">box-shadow: 2px 2px black;</pre>
 
 	<p>Finally, we can look at setting an image to a border. If you don’t like how CSS does their borders, then you can create your own, and add it in instead. This can be done using a little complex CSS 3:
 
 <pre class = "prettyprint">border-image:url(image) length height type;</pre>
 
-<p>Here, we see that the image used becomes the necessary length and height, and depending on the type, we see two different effects. The first is round, causes the image to be repeated for the entirety of the border, whereas stretch, causes the image to be stretched out to fit the size of the border. 
-Borders are very nice for adding a subtle pop to a menu or enhancing the difference between two containers. </p>
+	<p>Here, we see that the image used becomes the necessary length and height, and depending on the type, we see two different effects. The first is round, causes the image to be repeated for the entirety of the border, whereas stretch, causes the image to be stretched out to fit the size of the border. 
+	Borders are very nice for adding a subtle pop to a menu or enhancing the difference between two containers. </p>
 
         <h3><a href="../tutorials.php">< back to Tutorials</a></h3>
 	
