@@ -73,7 +73,7 @@
             <label for ="q2a1"><input type="radio" name="q2" value="incorrect" id="q2a1"/> a) color:blue;</label>
             <label for ="q2a2"><input type="radio" name="q2" value="incorrect" id="q2a2"/> b) background: blue;</label>
 			<label for ="q2a3"><input type="radio" name="q2" value="correct" id="q2a3"/> c) background-color: blue;</label>
-			<label for ="q2a4"><input type="radio" name="q2" value="incorrect" id="q2a2"/> d) color_background: blue;</label>
+			<label for ="q2a4"><input type="radio" name="q2" value="incorrect" id="q2a4"/> d) color_background: blue;</label>
 		</div>
         
 		<div class="question">
