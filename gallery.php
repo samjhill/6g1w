@@ -26,19 +26,19 @@
 	    <div>
 		<!-- for some reason, this API won't work dynamically -->
 		<div style="display:inline;" onclick="location.href='http://www.dangersoffracking.com/';">
-		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.dangersoffracking.com/"></script>
+		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&amp;url=http://www.dangersoffracking.com/"></script>
 		</div>
 		
 		<div style="display:inline;" onclick="location.href='http://www.fleeangrybear.com/';">
-		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://www.fleeangrybear.com/"></script>
+		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&amp;url=http://www.fleeangrybear.com/"></script>
 		</div>
 		
 		<div style="display:inline;" onclick="location.href='http://sidigital.co/';">
-		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://sidigital.co/"></script>
+		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&amp;url=http://sidigital.co/"></script>
 		</div>
 		
 		<div style="display:inline;" onclick="location.href='http://fff.cmiscm.com/#!/main';">
-		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&url=http://fff.cmiscm.com/#!/main"></script>
+		    <script type="text/javascript" src="http://grabz.it/services/javascript.ashx?key=M2M1MDljMzhkNmJmNGQ5M2FiYzU4MDNhMjJkZWJkMjQ=&amp;url=http://fff.cmiscm.com/#!/main"></script>
 		</div>
 		
 	    </div>
