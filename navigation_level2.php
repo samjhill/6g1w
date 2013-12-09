@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<head>
+</head>
 <body>
 <div class="navbar">
 	<div class="navbar-inner">
