@@ -24,12 +24,12 @@
 		<?php include("../navigation_level2.php"); ?>
 		
 		<div id="content">
-		<h3><a href="../tutorials.php">< back</a></h3>
+		<h3><a href="../tutorials.php">back</a></h3>
 		<h1>Adding Depth and Uniqueness</h1>
 		<h2>Borders and Backgrounds</h2>
-<p>Within CSS, there are various properties that can help you to make various items more unique to the look of the site. There are properties that allow you to change a border to any image you want, and same for the background.</p>
+	<p>Within CSS, there are various properties that can help you to make various items more unique to the look of the site. There are properties that allow you to change a border to any image you want, and same for the background.</p>
 
-<h3>Background:</h3>
+	<h3>Background:</h3>
 	<p>There are several things you can do with a background that do not involve just changing the color. You can add your own image, resize these images, or even overlap to create one constant flowing background. </p>
 	<p>Adding a background image is very simple because CSS has two properties that we can use to both add the image, and resize it once we have it loaded: </p>
 

@@ -25,7 +25,50 @@ else if (rand == "collapseColorOpacity")
     $('#newLink1').html("Color Opacity");
 }
 
+if(rand == "collapseKeyframes")
+{
+	var new = "animation";
+}
+else if(rand == "collapseAnimation")
+{
+	var new = "collapseKeyframes";
+}
+else if(rand == "collapseAnimationName")
+{
+	var new = "collapseAnimation");
+}
+else if(rand == "collapseAnimationDuration")
+{
+	var new = "collapseAnimationName";
+}
+else if(rand == "collapseAnimationTimingFunction";
+{
+	var new = "collapseAnimationDuration";
+}
+else if(rand == "collapseAnimationDelay")
+{
+	var new = "collapseAnimationTimingFunction";
+}
+else if(rand == "collapseAnimationIterationCount")
+{
+	var new = "collapseAnimationDelay";
+}
+else if(rand == "collapseOverflowX")
+{
+	var new = "box-properties";
+}
+else if(rand == "collapseOverflowY")
+{
+	var new = "collapseOverflowX";
+}
+else if(rand == "collapseColorOpacity")
+{
+	var new = "collapseColor";
+}
+
+
+
 console.log(name);
 
-$('newLink1').attr("href", "dictionary.php#" + name);
-
+//document.getElementById('newLink1').href += "dictionary.php#" + rand;
+$('#newLink1').attr('href', 'dictionary.php#' + new);
