@@ -69,13 +69,14 @@
 					  <div class="panel-body">
 					    <ul>
 						<li>
-						    <div class="newItem" id="popular1">
-							<a id="newLink1" href="dictionary.php#"><h3 id = "newLinkId1"></h3></a>
+						    <div class="newItem" id="new1">
+							<h3 id = "newLinkId1"><a id="newLink1" href="dictionary.php#"></a></h3>
 						    </div>
 						</li>
                             <a class="accordion-toggle pull-right" data-toggle="collapse" href="#collapseNew">
 							Close
 						    </a>
+					    </ul>
 					</div>
 				</div>
 				<a href="dictionary.php" class="homeNavItem"><i class="fa fa-bars"></i> All</a>
