@@ -60,7 +60,7 @@
     <div id="content">
 	<form name ="quiz2" id="quiz2"
 	  method="post" action="quiz2.html">
-	<h3><a href="../quizzes.php">< back</a></h3>    
+	<h3><a href="../quizzes.php">back</a></h3>    
 	<h1>Box Properties Quiz</h1>
 	
 	<div class="question">
@@ -77,7 +77,7 @@
 	
 	<div class="question">
 	    <span>3) Rotation-point rotates an element around a given point</span>
-	    <label for ="q1a1"><input type="radio" name="q3" value="incorrect" id="q3a1"/>a) true </label>
+	    <label for ="q3a1"><input type="radio" name="q3" value="incorrect" id="q3a1"/>a) true </label>
 	    <label for ="q3a2"><input type="radio" name="q3" value="correct" id="q3a2"/>b) false </label>
 	</div>
 	
