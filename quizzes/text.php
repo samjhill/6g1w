@@ -56,7 +56,7 @@
     <div id="content">
         <form name ="quiz2" id="quiz2"
           method="post" action="quiz2.html">
-        <h3><a href="../quizzes.php">< back</a></h3>    
+        <h3><a href="../quizzes.php">back</a></h3>    
         
 		<h1>Text Properties Quiz</h1>
         
@@ -72,7 +72,7 @@
             <span>Q2) Which property change background color?</span>
             <label for ="q2a1"><input type="radio" name="q2" value="incorrect" id="q2a1"/> a) color:blue;</label>
             <label for ="q2a2"><input type="radio" name="q2" value="incorrect" id="q2a2"/> b) background: blue;</label>
-			<label for ="q2a3"><input type="radio" name="q2" value="correct" id="q2a2"/> c) background-color: blue;</label>
+			<label for ="q2a3"><input type="radio" name="q2" value="correct" id="q2a3"/> c) background-color: blue;</label>
 			<label for ="q2a4"><input type="radio" name="q2" value="incorrect" id="q2a2"/> d) color_background: blue;</label>
 		</div>
         
