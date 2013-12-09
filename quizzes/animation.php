@@ -62,37 +62,37 @@
 		<h1>Animation Properties Quiz</h1>
         
         <div class="question">
-			<span>Q1)Which property is used for defining the speed curve of an animation?</span>
-            <label for ="q1a1"><input type="radio" name="q1" value="correct" id="q1a1"/> a)animation-timing-function;</label>
-            <label for ="q1a2"><input type="radio" name="q1" value="incorrect" id="q1a2"/> b)animation-delay;</label>
-			<label for ="q1a3"><input type="radio" name="q1" value="incorrect" id="q1a3"/> c)animation-play-state;</label>
-			<label for ="q1a4"><input type="radio" name="q1" value="incorrect" id="q1a4"/> d)animation-duration;</label>
+			<span>1) Which property is used for defining the speed curve of an animation?</span>
+            <label for ="q1a1"><input type="radio" name="q1" value="correct" id="q1a1"/>  animation-timing-function;</label>
+            <label for ="q1a2"><input type="radio" name="q1" value="incorrect" id="q1a2"/>  animation-delay;</label>
+			<label for ="q1a3"><input type="radio" name="q1" value="incorrect" id="q1a3"/>  animation-play-state;</label>
+			<label for ="q1a4"><input type="radio" name="q1" value="incorrect" id="q1a4"/>  animation-duration;</label>
 	   </div>
         
         <div class="question">
-            <span>Q2)Which syntax is the proper use of the animation-play-state property?</span>
-            <label for ="q2a1"><input type="radio" name="q2" value="incorrect" id="q2a1"/>a)animation-play-state:animation.paused; </label>
-            <label for ="q2a2"><input type="radio" name="q2" value="correct" id="q2a2"/>b)animation-play-state:paused;</label>
-			<label for ="q2a3"><input type="radio" name="q2" value="incorrect" id="q2a3"/>c)animation-current-state:paused;</label>
-			<label for ="q2a4"><input type="radio" name="q2" value="incorrect" id="q2a4"/>d)animation-play-state:paused 10sec;</label>
+            <span>2) Which syntax is the proper use of the animation-play-state property?</span>
+            <label for ="q2a1"><input type="radio" name="q2" value="incorrect" id="q2a1"/> animation-play-state:animation.paused; </label>
+            <label for ="q2a2"><input type="radio" name="q2" value="correct" id="q2a2"/> animation-play-state:paused;</label>
+			<label for ="q2a3"><input type="radio" name="q2" value="incorrect" id="q2a3"/> animation-current-state:paused;</label>
+			<label for ="q2a4"><input type="radio" name="q2" value="incorrect" id="q2a4"/> animation-play-state:paused 10sec;</label>
 		</div>
         
 		<div class="question">
-            <span>Q3)Which syntax wil determine when a specific animation will start?</span>
-            <label for ="q3a1"><input type="radio" name="q3" value="correct" id="q3a1"/> a)animation.start(2) </label>
-            <label for ="q3a2"><input type="radio" name="q3" value="incorrect" id="q3a2"/>b)animation-delay:2s;</label>
-			<label for ="q3a3"><input type="radio" name="q3" value="incorrect" id="q3a3"/>c)animation.resume(2);</label>
-			<label for ="q3a4"><input type="radio" name="q3" value="incorrect" id="q3a4"/>d)animation.paused(2);</label>
+            <span>3) Which syntax wil determine when a specific animation will start?</span>
+            <label for ="q3a1"><input type="radio" name="q3" value="correct" id="q3a1"/>  animation.start(2) </label>
+            <label for ="q3a2"><input type="radio" name="q3" value="incorrect" id="q3a2"/> animation-delay:2s;</label>
+			<label for ="q3a3"><input type="radio" name="q3" value="incorrect" id="q3a3"/> animation.resume(2);</label>
+			<label for ="q3a4"><input type="radio" name="q3" value="incorrect" id="q3a4"/> animation.paused(2);</label>
 		</div>
 		
         <div class="question">
-            <span>Q4)The CSS property @keyframes defines an animation
+            <span>4) The CSS property @keyframes defines an animation
             <label for ="q4a1"><input type="radio" name="q4" value="correct" id="q4a1"/> T</label>
             <label for ="q4a2"><input type="radio" name="q4" value="incorrect" id="q4a2"/> F</label>
 		</div>
         
 		<div class="question">
-			<span>Q5)Animation-duration can be specified using seconds</span>
+			<span>5) Animation-duration can be specified using seconds</span>
             <label for ="q5a1"><input type="radio" name="q5" value="correct" id="q5a1"/> T</label>
             <label for ="q5a2"><input type="radio" name="q5" value="incorrect" id="q5a2"/> F</label>
 		</div>
