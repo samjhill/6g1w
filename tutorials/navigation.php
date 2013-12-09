@@ -24,7 +24,7 @@
 		<?php include("../navigation_level2.php"); ?>
 		
 		<div id="content">
-		<h3><a href="../tutorials.php">< back</a></h3>
+		<h3><a href="../tutorials.php">back</a></h3>
 		<h1>Where to Go - Navigation Bar</h1>
 
 	<p>Creating global navigation with an indicator of where a user is on the website is one of the more important aspects to creating a website. It makes the user’s navigation throughout the site much more simple, and if they are able to find what they want very quickly, they will almost always return to find it again. So where do we begin? Well first, there are a few unsung rules of global navigation that need to be discussed before we can begin implementation. First, we never want the global navigation to be more than 7 items long, however this is dependant on the information that is being used. If you feel like the navigation is too cluttered, try condensing two or more menus into one submenu. Second, we should always know where within the site we are, and we can do this through manipulation of the global navigation. As long as there is something different about the menu item for the current page, the user will easily be able to find their way around the site.</p>
@@ -50,14 +50,14 @@
 	&lt;/ul&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
-</pre></p>
+</pre>
 
 <p>Now that we have the HTML done, we can begin work on the CSS portion, and really make this navigation shine. The first thing we want to do is get rid of bullet points left by the unordered list, as we don’t want to see these in our final product. </p>
 
 <pre class = "prettyprint">ul{
     list-style: none;
     display:block;
-}</pre></p>
+}</pre>
 
 <p>Here, the display property groups the items together so that when we hide the submenus, the entire menu is properly grouped together. We then follow this with another block specifically to remove the underlines, and default blue coloring for our links:</p>
 
@@ -66,7 +66,7 @@ ul a{
     text-decoration: none;
     color: black;
 }
-</pre></p>
+</pre>
 
 <p>In this case, the header for the block essentially reads: any &lt;a&gt; tags within the first &lt;ul&gt; will not have a text decoration and the text will be black. So now, our website should look something like this:</p>
 <a target="_blank" href="examples/navigation/nav1/nav.html" class="btn btn-primary">View Example</a>
@@ -104,7 +104,7 @@ ul#nav li ul{
 ul#nav li:hover ul{
     display: block;
 }
-</pre></p>
+</pre>
 
 <p>This is the exact same header as the previous block, however, added to it is the :hover to the li. What this does is causes whatever is in the &lt;ul&gt; tags in the &lt;li&gt; tags to display whenever the &lt;li&gt; tag is hovered over with a cursor. </p>
 	<p>The last key portion of any good navigation is letting your user know where on the website you are. This can be done through a few options:</p>
