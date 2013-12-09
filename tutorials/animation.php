@@ -24,7 +24,7 @@
 		<?php include("../navigation_level2.php"); ?>
 		
 		<div id="content">
-		<h3><a href="../tutorials.php">< back</a></h3>
+		<h3><a href="../tutorials.php">&lt; back</a></h3>
 		<h3>Make It Dance- Animation</h3>
 
 <h3>Animation</h3>
@@ -75,7 +75,7 @@ to {background: red;}
 <p>From top to bottom we have animation-name, which allows us to call the animation specified in the @keyframe that we want to use. The time for animation-duration allows us to specify how long we want the animation to run for, which can be any number in terms of either seconds (s) or milliseconds (ms) (by default it is set to 0). The number for animation-iteration-count allows us to specify how many times we want the animation to repeat itself before stopping, even allowing it to run an infinite amount of times (default is set to 1). The type for animation-direction allows us to specify whether we want the animation to play out how it normally should, called by normal, in reverse, called by reverse, or alternating between the two, called alternate. </p>
 	<p>Animations are useful for your site in terms of adding new dynamics, especially if you are unfamiliar with Flash or JavaScript. </p>
 
-        <h3><a href="../tutorials.php">< back to Tutorials</a></h3>
+        <h3><a href="../tutorials.php">&lt; back to Tutorials</a></h3>
 	
 	<h3><a href="../quizzes/animation.php"> Animations Quiz</a></h3>
 	
