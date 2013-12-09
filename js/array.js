@@ -17,12 +17,12 @@ if (rand == "collapseKeyframes" || rand == "collapseAnimation" || rand == "colla
 else if (rand == "collapseOverflowX" || rand == "collapseOverflowY")
 {
     var name = "box-properties";
-    $('#newLinkId1').html("Animation");
+    $('#newLinkId1').html("Overflow");
 }
 else if (rand == "collapseColorOpacity")
 {
     var name = "color";
-    $('#newLinkId1').html("Animation");
+    $('#newLinkId1').html("Color Opacity");
 }
 
 console.log(name);
