@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
 <div class="navbar">
 	<div class="navbar-inner">
 	  <a class="brand" href="#">6G1W</a>
@@ -11,3 +16,5 @@
 	  </ul>
 	</div>
 </div>
+</body>
+</html>
