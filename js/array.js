@@ -27,5 +27,5 @@ else if (rand == "collapseColorOpacity")
 
 console.log(name);
 
-document.getElementById("newLink1").href += name;
+document.getElementById("newLink1").href += rand;
 
