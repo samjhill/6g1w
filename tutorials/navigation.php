@@ -124,7 +124,7 @@ ul#nav li:hover ul{
 <p>By adding the "active" class to the page on with the &lt;li&gt; tag currently being accessed, it adds a simple "breadcrumb" that allows the user to know that, in this case, they are currently on the homepage.</p>
 	<p>Making a basic vertical menu in CSS is as easy as that. Vertical menus are useful for almost all sites, as well as horizontal navigation bars. However, we will not spill the secrets to a horizontal navigation bar; we’ll let you try and discover how to do that on your own. </p>
 
-        <h3><a href="../tutorials.php">&lt back to Tutorials</a></h3>
+        <h3><a href="../tutorials.php">&lt; back to Tutorials</a></h3>
 	
 	
 	</div>
