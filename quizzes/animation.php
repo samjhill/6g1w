@@ -1,6 +1,6 @@
 <?php
 
-  $currentPage=" uizzes";
+  $currentPage="Quizzes";
 
 ?>
 
@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
     <meta charset='utf-8' />
-    <title>Animation Properties  uiz</title>
+    <title>Animation Properties Quiz</title>
     <link type="text/css" rel="stylesheet" href="../assets/font-awesome/css/font-awesome.css" />
     <link type="text/css" rel="stylesheet" href="../assets/prettify.css" />
     <link type="text/css" rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css" />
@@ -59,7 +59,7 @@
           method="post" action="quiz2.php">
         <h3><a href="../quizzes.php">back</a></h3>    
         
-		<h1>Animation Properties  uiz</h1>
+		<h1>Animation Properties Quiz</h1>
         
         <div class="question">
 			<span> 1)Which property is used for defining the speed curve of an animation?</span>
